@@ -345,8 +345,8 @@
                                 <div class="heading-survey">
                                     <div class="logo">
                                         <h1>
-                                            <img src="/assets/images/logo.png" alt="Smart Solar Savings" title="Smart Solar Savings">
-                                            <span>Smart</span>&nbsp;Solar&nbsp;Savings                                        </h1>
+                                            <img src="/assets/images/logo.png" alt="Smart Solar Savings" title="Ahorro Solar Inteligente">
+                                            <span>Ahorro</span>&nbsp;Solar&nbsp;Inteligente                                        </h1>
                                     </div>
                                 </div>
                             </div>
