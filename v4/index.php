@@ -414,7 +414,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <input type="hidden" id="session_storage" name="session_storage" value="">
     <fieldset id="form-step1" class="form-steps fieldset-0" data-step="1" style="display: block;" data-tag="homeowner">
         <legend hidden="true">homeowner</legend>
-        <h3 class="form_box-question">¿Es usted dueño de casa?</h3>
+        <h3 class="form_box-question" id="home_owner">¿Es usted dueño de casa?</h3>
         <div class="form-group">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6">
