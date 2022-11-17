@@ -313,21 +313,10 @@
   const _echo_get = window._echo_get = {"a":"29928","c":"47901","lp_campid":"630e19bd3561d","lp_campkey":"tN8H9FGRrChgp3M7Jw46"};
   const _echo_post = window._echo_post = [];
 </script>
-
-
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-10897705597');
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-K287S83"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GTM-K287S83');
-</script></head>
+    
+<?php include('pixelscript.php'); ?>
+    
+</head>
 <body class="v2-page en">
 <div id="work-in-progress">
     <div class="progress-materializecss">
@@ -346,7 +335,6 @@
                                     <div class="logo">
                                         <h1>
                                             <img src="/assets/images/637593aba829106aa70778c3.png" alt="Ahorro Solar" title="Ahorro Solar">
-                                            <span>Smart</span>&nbsp;Solar&nbsp;Savings
                                         </h1>
                                     </div>
                                 </div>
