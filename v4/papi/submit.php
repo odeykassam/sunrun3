@@ -1,5 +1,5 @@
 <?php
-header('Content-type: application/json');
+header( 'Content-type: application/json' );
 
 $email                   = $_POST['email_address'];
 $firstName               = $_POST['first_name'];
@@ -14,7 +14,11 @@ $country                 = $_POST['country'];
 $postalCode              = $_POST['postal_code'];
 $provider                = $_POST['utility_provider'];
 $propertyOwnership       = $_POST['property_ownership'];
-
+if ( strpos( $_SERVER['REQUEST_URI'], "-fb" ) !== false ) {
+	$tag = 'fb';
+} else if ( strpos( $_SERVER['REQUEST_URI'], "-tiktok" ) !== false ) {
+	$tag = 'tiktok';
+}
 $apiPayload = [
 	'email'     => $email,
 	'firstName' => $firstName,
@@ -22,8 +26,11 @@ $apiPayload = [
 	'phone'     => $phone,
 	'country'   => $country,
 	'name'      => sprintf( '%s %s', $firstName, $lastName ),
-	'address1'  => $fullAddress
+	'address1'  => $fullAddress,
 ];
+if ( $tag ) {
+	$apiPayload['tags'] = [ $tag ];
+}
 
 $curl = curl_init();
 
@@ -51,5 +58,5 @@ if ( $err ) {
 	echo "cURL Error #:" . $err;
 	die();
 }
-echo json_encode(['code'=>200,'body'=>true]);
+echo json_encode( [ 'code' => 200, 'body' => true ] );
 die();
