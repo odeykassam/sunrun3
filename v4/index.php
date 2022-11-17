@@ -1490,27 +1490,6 @@ prominent notice on our Platform prior to the change becoming effective, and wil
     }
 
     /**
-     * Track step in 3rd party analytics
-     **/
-    function trackQuestion(step) {
-      let qstep = 'Q' + step;
-      dataLayer.push({'event': qstep});
-      window._loq.push(["tag", qstep, true]);
-      gtag('event', 'page_view', {
-        page_title: qstep,
-        page_location: '/' + version + '/' + qstep,
-        page_path: '/' + version + '/' + qstep,
-        send_to: window.measurement_id
-      })
-      gtag('event', 'survey_step', {
-        event_category: 'survey',
-        event_label: qstep,
-        label: qstep
-      })
-      makeRequest(qstep);
-    }
-
-    /**
      * Helper function determine if there's a next screen
      */
     function hasNext() {
