@@ -622,7 +622,7 @@
         <legend hidden="true">Address Name</legend>
         <h3 class="form_box-question">¿Dónde desea instalar los paneles solares (dirección de la calle)?</h3>
         <div class="form-group" id="street_address">
-            <input id="address" class="form-control" type="text" name="full_address" placeholder="1 Grand Street Huntington Beach, CA 92647"
+            <input id="address" class="form-control" type="text" name="full_address" placeholder="Ejemplo: 1 Grand Street Huntington Beach, CA 92647"
                    value=""
                    required>
             <div id="address_error" class="form-error-message">Proporcione dónde desea que se instalen los paneles.</div>
