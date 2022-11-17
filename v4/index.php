@@ -345,7 +345,7 @@
                                 <div class="heading-survey">
                                     <div class="logo">
                                         <h1>
-                                            <img src="/assets/images/logo.png" alt="Smart Solar Savings" title="Smart Solar Savings">
+                                            <img src="/assets/images/637593aba829106aa70778c3.png" alt="Ahorro Solar" title="Ahorro Solar">
                                             <span>Smart</span>&nbsp;Solar&nbsp;Savings
                                         </h1>
                                     </div>
@@ -703,7 +703,7 @@ Se pueden aplicar tarifas de mensajes/datos.                                    
     <div class="container">
         <div class="solar-footer-content">
             <div class="row">
-                <p class="copyright">Copyright &copy 2022 <a href="index.php" title="Home">www.ahorro.solar</a></p>
+                <p class="copyright">Copyright &copy 2022 <a href="index.php" title="Home">www.ahorrosolar.com</a></p>
             </div>
             <div class="row">
                 <div class="footer-menu">
@@ -791,23 +791,6 @@ Se pueden aplicar tarifas de mensajes/datos.                                    
             </div>
         </div>
     </div>
-        <div class="container">
-        <div class="row" style="padding: 475px 3px 50px 3px;">
-            <div class="col-xs-12" style=" font-size:11px; font-weight: normal;">
-                <p class="p-3 font-weight-bold">IPS Solar Purchase Part of $165.5 Million New Energy Acquisition by ALLETE</p>
-                <div class="p-3">
-                <p>Impact Power Solutions</a> (IPS Solar) has been acquired by New Energy Equity LLC</a>. ALLETE Inc.</a> just announced it is acquiring New Energy Equity, which includes IPS Solar for $165.5 million.&nbsp; IPS Solar will retain its branding and corporate headquarters in Roseville, Minn.</p>
-<p>“The IPS team is excited to join New Energy Equity and the ALLETE family of companies,” says Jamie Borell, IPS Solar’s CEO. “The shared vision of positively impacting the world with solar energy will ensure that our combined venture will enjoy tremendous success.”</p>
-<p>“I am thrilled to have the team that we have grown for thirty years now join the family of Allete companies,” comments Ralph Jacobson, who founded IPS Solar in 1991. “Together, we will have the expanded resources and experience base to be at the forefront of building the world we all want for our children.”</p>
-<p>“We are set to enter a new phase of growth,” adds Eric Pasi, chief development officer and co-owner of IPS Solar. “This partnership will allow our companies to dramatically expand the work we’ve already started, increasing access to clean energy for all Americans.”</p>
-<p>New Energy Equity and ALLETE expect the purchase to close in mid-April upon satisfaction of customary closing conditions, including compliance with Hart-Scott-Rodino antitrust clearing requirements.</p>
-<p>The post IPS Solar Purchase Part of $165.5 Million New Energy Acquisition by ALLETE</a> appeared first on Solar Industry</a>.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
 </footer>
 
 <!-- TCPA Modal -->
