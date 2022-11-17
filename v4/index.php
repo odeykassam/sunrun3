@@ -362,8 +362,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 offset-lg-2">
                 <div id="form-header" class="heading-survey">
-                    <h3>Get a Free Solar Quote</h3>
-                    <h4>Take this 60 second survey to see if you qualify!</h4>
+                    <h3>Obtenga una cotización solar gratis</h3>
+                    <h4>¡Tome esta encuesta de 60 segundos para ver si califica!</h4>
                 </div>
                 <div class="banner-form-wrap">
                     <div class="progress_box">
@@ -372,22 +372,22 @@
                         </div>
                     </div>
                     <div id="loader" class="form_box">
-                        <h2><em>Please wait while we save your information.</em></h2>
-                        <h2><em>Do not close this window while we verify your eligibility.</em></h2>
+                        <h2><em>Espere mientras guardamos su información.</em></h2>
+                        <h2><em>No cierre esta ventana mientras verificamos su elegibilidad.</em></h2>
                         <p class="in-progress" data-timeout="1500">
-                            Finding your home <span>..</span> <span class="status">done</span>
+                            Buscando su casa <span>..</span> <span class="status">Listo</span>
                         </p>
                         <p class="in-progress" data-timeout="1500">
-                            Checking homeowner status <span>..</span> <span class="status">done</span>
+                            Comprobando el estado del propietario <span>..</span> <span class="status">Listo</span>
                         </p>
                         <p class="in-progress" data-timeout="1500">
-                            Analyzing your utility bill <span>..</span> <span class="status">done</span>
+                            Analizando su factura eléctrica <span>..</span> <span class="status">Listo</span>
                         </p>
                         <p class="in-progress" data-timeout="1500">
-                            Check sun coverage on your roof <span>..</span> <span class="status">done</span>
+                            Comprobando la cobertura solar en tu tejado <span>..</span> <span class="status">Listo</span>
                         </p>
                         <p class="in-progress">
-                            Locating solar providers in your area <span>..</span>
+                            Localizando proveedores de energía solar en su área <span>..</span>
                         </p>
                         <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
                     </div>
@@ -395,12 +395,12 @@
                         <!-- <div class="form_nav">Question <span id="slidenum">1</span></div> -->
                         <div id="loader">
                             <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
-                            <p><em>Please wait while we save your information.</em></p>
+                            <p><em>Espere mientras guardamos su información.</em></p>
                         </div>
                         <form id="msform" class="form" action="thank-you.php?" novalidate method="post">
     <input type="hidden" id="token" name="token" value="9741a0c84c1112244e3cce9df3fb31a17217692194c4cd5ffef12c033d5eb9f6">
     <input id="leadid_token" name="jornaya_lead_id" type="hidden" value=""/>
-    <input type="hidden" id="tcpa_text" name="tcpa_text" value="By clicking Next, I agree to Terms, Privacy, and consent to solar/home servicers to send marketing prerecorded messages and autodialed calls/texts to my phone number above even if it's on any do not call list. Consent is not a condition of purchase. You can opt-out at any time (see Terms). Message/data rates may apply.">
+    <input type="hidden" id="tcpa_text" name="tcpa_text" value="Al hacer clic en Siguiente, acepto los Términos, la privacidad y doy mi consentimiento para que los proveedores de servicios solares/domésticos envíen mensajes de marketing pregrabados y llamadas/textos de marcación automática a mi número de teléfono anterior, incluso si está en alguna lista de no llamar. El consentimiento no es una condición de compra. Puede darse de baja en cualquier momento (ver Términos). Se pueden aplicar tarifas de mensajes/datos.">
     <input type="hidden" id="tcpa_consent" name="tcpa_consent" value="Yes">
     <input type="hidden" id="interested_in_solar_electric" name="interested_in_solar_electric" value="yes">
     <input type="hidden" id="interested_in_solar_hot_water" name="interested_in_solar_hot_water" value="no">
@@ -420,13 +420,13 @@
     <input type="hidden" id="session_storage" name="session_storage" value="">
     <fieldset id="form-step1" class="form-steps fieldset-0" data-step="1" style="display: block;" data-tag="homeowner">
         <legend hidden="true">homeowner</legend>
-        <h3 class="form_box-question">Are you a homeowner?</h3>
+        <h3 class="form_box-question">¿Es usted dueño de casa?</h3>
         <div class="form-group">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="radio-btn radio-next">
                         <input id="pc01" class="form-control" type="radio" name="property_ownership" value="Own" required checked="" data-tf-value="false">
-                        <label for="pc01"><span>Yes</span></label>
+                        <label for="pc01"><span>Si</span></label>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6">
@@ -443,7 +443,7 @@
     </fieldset>
     <fieldset id="form-step2" class="form-steps fieldset-1" data-step="2" style="display: none;" data-tag="zip">
         <legend hidden="true">zipcode</legend>
-        <h3 class="form_box-question">What is your zip code?</h3>
+        <h3 class="form_box-question">¿Cuál es su código postal?</h3>
         <div class="form-group">
             <label style="visibility: hidden; position: absolute;" for="zip">Zip Code</label>
             <input id="zip"
@@ -454,23 +454,23 @@
                    title="Enter Your ZIP Code"
                    maxlength="5"
                    minlength="5"
-                   placeholder="Enter Your ZIP Code"
+                   placeholder="Ejemplo: 92647"
                    value=""
                    required>
-            <div id="zip_code_error" class="form-error-message">Please enter a valid US Zip Code.</div>
+            <div id="zip_code_error" class="form-error-message">Ingrese un código postal de EE. UU. válido.</div>
         </div>
         <div class="row">
-            <div class="col col-xs-6 colback"><a class="btn btn-link btn-back">Back</a></div>
+            <div class="col col-xs-6 colback"><a class="btn btn-link btn-back">Atrás</a></div>
             <div class="col col-xs-6">
                 <div class="form-btns ml-auto text-right">
-                    <button id="q2-next" class="btn form-btn btn-next" id="btnzip" type="button"><span class="btn-text">Next</span></button>
+                    <button id="q2-next" class="btn form-btn btn-next" id="btnzip" type="button"><span class="btn-text">Siguiente</span></button>
                 </div>
             </div>
         </div>
     </fieldset>
     <fieldset id="form-step3" class="form-steps fieldset-2" data-step="3" style="display: none;" data-tag="utilityprovider">
         <legend hidden="true">utility</legend>
-        <h3 class="form_box-question">Who's your electric utility provider?</h3>
+        <h3 class="form_box-question">¿Quién es su proveedor de servicios eléctricos?</h3>
         <div class="form-group">
             <label for="provider-select" class="label" style="visibility: hidden; position: absolute;">
                 Who's your utility provider?            </label>
@@ -478,10 +478,10 @@
             </select>
         </div>
         <div class="row">
-            <div class="col col-xs-6 colback"><a class="btn btn-link btn-back">Back</a></div>
+            <div class="col col-xs-6 colback"><a class="btn btn-link btn-back">Atrás</a></div>
             <div class="col col-xs-6">
                 <div class="form-btns ml-auto text-right">
-                    <button id="q3-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Next</span>
+                    <button id="q3-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Siguiente</span>
                     </button>
                 </div>
             </div>
@@ -489,7 +489,7 @@
     </fieldset>
     <fieldset id="form-step4" class="form-steps fieldset-3" data-step="4" style="display: none;" data-tag="utilitybill">
         <legend hidden="true">electric bill</legend>
-        <h3 class="form_box-question">How much is your average monthly electric bill?</h3>
+        <h3 class="form_box-question">¿Cuánto paga en promedio de electricidad?</h3>
         <div class="form-group">
             <div class="bill_bar">
 
@@ -504,10 +504,10 @@
             </div>
         </div>
                 <div class="row">
-            <div class="col col-xs-6 colback"><a class="btn btn-link btn-back">Back</a></div>
+            <div class="col col-xs-6 colback"><a class="btn btn-link btn-back">Atrás</a></div>
             <div class="col col-xs-6">
                 <div class="form-btns ml-auto text-right">
-                    <button id="q4-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Next</span>
+                    <button id="q4-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Siguiente</span>
                     </button>
                 </div>
             </div>
@@ -515,31 +515,31 @@
     </fieldset>
     <fieldset id="form-step5" class="form-steps fieldset-4" data-step="5" style="display: none;" data-tag="roofshade">
         <legend hidden="true">roof's sun exposure</legend>
-        <h3 class="form_box-question">How sunny is your roof area?</h3>
+        <h3 class="form_box-question">¿Qué tan soleado es el área de su techo?</h3>
         <div class="form-group radio-next">
             <div class="radio-btn">
                 <input id="rf1" type="radio" name="roof_shade" value="No Shade" required checked="" data-tf-value="true">
-                <label for="rf1"><span>Full Sun</span></label>
+                <label for="rf1"><span>Muy soleado</span></label>
             </div>
             <div class="radio-btn">
                 <input id="rf2" type="radio" name="roof_shade" value="A Little Shade" required data-tf-value="false">
-                <label for="rf2"><span>Partial Sun</span></label>
+                <label for="rf2"><span>Parcialmente soleado</span></label>
             </div>
             <div class="radio-btn">
                 <input id="rf3" type="radio" name="roof_shade" value="A Lot of Shade" data-tf-value="false">
-                <label for="rf3"><span>A Lot of Shade</span></label>
+                <label for="rf3"><span>Mucha sombra</span></label>
             </div>
             <div class="radio-btn">
                 <input id="rf4" type="radio" name="roof_shade" value="Uncertain" data-tf-value="false">
-                <label for="rf4"><span>Uncertain</span></label>
+                <label for="rf4"><span>No lo se</span></label>
             </div>
             <div class="form-error-message">Pros need this information to generate a quote.            </div>
         </div>
         <div class="row">
-            <div class="col col-xs-6 colback"><a class="btn btn-link btn-back">Back</a></div>
+            <div class="col col-xs-6 colback"><a class="btn btn-link btn-back">Atrás</a></div>
             <div class="col col-xs-6">
                 <div class="form-btns ml-auto text-right">
-                    <button id="q5-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Next</span>
+                    <button id="q5-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Siguiente</span>
                     </button>
                 </div>
             </div>
@@ -547,24 +547,24 @@
     </fieldset>
     <fieldset id="form-step6" class="form-steps fieldset-5" data-step="6" style="display: none;" data-tag="email">
         <legend hidden="true">Email</legend>
-        <h3 class="form_box-question">What email address should your results be sent to?</h3>
+        <h3 class="form_box-question">¿A qué de correo electrónico quieres que enviemos los resultados?</h3>
         <div class="form-group">
             <label for="email" class="label" style="visibility: hidden; position: absolute;">
                 Email Address            </label>
             <input id="email"
                    class="form-control" type="email"
                    name="email_address"
-                   placeholder="Email Address"
+                   placeholder="Correo electrónico"
                    value=""
                    required data-tf-fingerprint="email_email_address_1603174554500.781"
                    data-tf-value="email@domain.com">
-            <div id="email_error" class="form-error-message">Please enter a real email address.</div>
+            <div id="email_error" class="form-error-message">Por favor, introduzca un correo electrónico válido.</div>
         </div>
         <div class="row">
-            <div class="col colback"><a class="btn btn-link btn-back">Back</a></div>
+            <div class="col colback"><a class="btn btn-link btn-back">Atrás</a></div>
             <div class="col">
                 <div class="form-btns ml-auto text-right">
-                    <button id="q6-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Next</span>
+                    <button id="q6-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Siguiente</span>
                     </button>
                 </div>
             </div>
@@ -572,23 +572,23 @@
     </fieldset>
     <fieldset id="form-step7" class="form-steps fieldset-6" data-step="7" style="display: none;" data-tag="first">
         <legend hidden="true">First Name</legend>
-        <h3 class="form_box-question">What's your first name?</h3>
+        <h3 class="form_box-question">¿Cuál es tu primer nombre?</h3>
         <div class="form-group">
             <input id="first"
                    minlength="2"
                    class="form-control"
                    type="text"
                    name="first_name"
-                   placeholder="First Name"
+                   placeholder="Ejemplo: Adrián"
                    value=""
                    required data-tf-fingerprint="first_name_first_name_1603174554500.9617" data-tf-value="Rohit">
-            <div id="first_error" class="form-error-message">Please enter your first name.</div>
+            <div id="first_error" class="form-error-message">Por favor ingrese su primer nombre.</div>
         </div>
         <div class="row">
-            <div class="col colback"><a class="btn btn-link btn-back">Back</a></div>
+            <div class="col colback"><a class="btn btn-link btn-back">Atrás</a></div>
             <div class="col">
                 <div class="form-btns ml-auto text-right">
-                    <button id="q7-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Next</span>
+                    <button id="q7-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Siguiente</span>
                     </button>
                 </div>
             </div>
@@ -596,23 +596,23 @@
     </fieldset>
     <fieldset id="form-step8" class="form-steps fieldset-7" data-step="8" style="display: none;" data-tag="last">
         <legend hidden="true">Last Name</legend>
-        <h3 class="form_box-question">What's your last name?</h3>
+        <h3 class="form_box-question">¿Cuál es tu apellido?</h3>
         <div class="form-group">
             <input id="last"
                    minlength="2"
                    class="form-control"
                    type="text"
                    name="last_name"
-                   placeholder="Last Name"
+                   placeholder="Ejemplo: Rodriguez"
                    value=""
                    required data-tf-fingerprint="last_name_last_name_1603174554500.8398" data-tf-value="Bhatia">
-            <div id="last_error" class="form-error-message">Please enter your last name.</div>
+            <div id="last_error" class="form-error-message">Por favor ingrese su apellido.</div>
         </div>
         <div class="row">
-            <div class="col colback"><a class="btn btn-link btn-back">Back</a></div>
+            <div class="col colback"><a class="btn btn-link btn-back">Atrás</a></div>
             <div class="col">
                 <div class="form-btns ml-auto text-right">
-                    <button id="q8-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Next</span>
+                    <button id="q8-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Siguiente</span>
                     </button>
                 </div>
             </div>
@@ -620,12 +620,12 @@
     </fieldset>
     <fieldset id="form-step9" class="form-steps fieldset-8" data-step="9" style="display: none;" data-tag="address">
         <legend hidden="true">Address Name</legend>
-        <h3 class="form_box-question">Where do you want the solar panels installed (street address)?</h3>
+        <h3 class="form_box-question">¿Dónde desea instalar los paneles solares (dirección de la calle)?</h3>
         <div class="form-group" id="street_address">
-            <input id="address" class="form-control" type="text" name="full_address" placeholder="Address"
+            <input id="address" class="form-control" type="text" name="full_address" placeholder="1 Grand Street Huntington Beach, CA 92647"
                    value=""
                    required>
-            <div id="address_error" class="form-error-message">Please provide where you'd like the panels installed.</div>
+            <div id="address_error" class="form-error-message">Proporcione dónde desea que se instalen los paneles.</div>
         </div>
         <div class="form-group" id="street-address-verify" style="display: none;">
             <label>Did you mean to type? (Tap or click the answer that matches best)</label>
@@ -633,10 +633,10 @@
             </div>
         </div>
                 <div class="row">
-            <div class="col colback"><a class="btn btn-link btn-back">Back</a></div>
+            <div class="col colback"><a class="btn btn-link btn-back">Atrás</a></div>
             <div class="col">
                 <div class="form-btns ml-auto text-right">
-                    <button id="q9-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Next</span>
+                    <button id="q9-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Siguiente</span>
                     </button>
                 </div>
             </div>
@@ -644,7 +644,7 @@
     </fieldset>
     <fieldset id="form-step10" class="form-steps fieldset-9" data-step="10" style="display: none;" data-tag="phone">
         <legend hidden="true">Phone</legend>
-        <p class="form_box-desc">What phone number can we reach you at?</p>
+        <p class="form_box-desc">¿A qué número de teléfono podemos contactarte?</p>
         <div class="form-group">
             <input id="phone"
                    class="form-control"
@@ -653,31 +653,31 @@
                    placeholder="(000) 000-0000"
                    value=""
                    required minlength="10" maxlength="16" data-tf-fingerprint="phone_phone_home_1603174554501.6533" data-tf-value="(702) 555-1212">
-            <div id="phone_error" class="form-error-message phone-valid-error">Please enter a valid US phone number.</div>
+            <div id="phone_error" class="form-error-message phone-valid-error">Ingrese un número de teléfono válido de EE.UU</div>
         </div>
         <span class="terms_txt">
                                     <label id="tcpa_label">
                                         <input type="hidden" id="leadid_tcpa_disclosure" />
-                                            By clicking Next, I agree to
-<a href="terms.php" target="_new">Terms</a>,
-<a href="privacy.php" target="_new">Privacy</a>,
-and consent to
-<a href="companylist.php" target="_blank">solar/home servicers</a>
-to send marketing prerecorded messages and autodialed calls/texts
-to my phone number above even if it's on any do not call list.
-Consent is not a condition of purchase. You can opt-out at any
-time (see
-<a href="terms.php" target="_new" data-scroll-to="collection-of-information">Terms</a>).
- Message/data rates may apply.                                    </label>
+                                            Al hacer clic en Siguiente, acepto los
+<a href="terms.php" target="_new">Términos</a>,
+<a href="privacy.php" target="_new">Privacidad</a>,
+y consentimiento para
+<a href="companylist.php" target="_blank">servicios solares</a>
+para enviar mensajes pregrabados de marketing y llamadas/textos automáticamente
+a mi número de teléfono anterior, incluso si está en alguna lista de no llamar.
+El consentimiento no es una condición de compra. Puede darse de baja en cualquier
+momento (ver
+<a href="terms.php" target="_new" data-scroll-to="collection-of-information">Términos</a>).
+Se pueden aplicar tarifas de mensajes/datos.                                    </label>
                                 </span>
         <div class="row">
             <!-- <div class="col colback col-last"><button type="button" class="btn btn-link btn-back just-text">Back</button></div> -->
-            <!-- <div class="col colback"><a class="btn btn-link btn-back">Back</a></div> -->
+            <!-- <div class="col colback"><a class="btn btn-link btn-back">Atrás</a></div> -->
             <div class="col">
                 <div class="form-btns ml-auto text-right btn-last-submit">
-                    <button id="q10-next" class="btn form-btn btn-next btn-final" type="button"><span class="btn-text">Next</span>
+                    <button id="q10-next" class="btn form-btn btn-next btn-final" type="button"><span class="btn-text">Siguiente</span>
                     </button>
-                    <button id="q10-next-loading" class="btn form-btn btn-next-loading btn-final hide" type="button" disabled><span class="btn-text">Next</span>
+                    <button id="q10-next-loading" class="btn form-btn btn-next-loading btn-final hide" type="button" disabled><span class="btn-text">Siguiente</span>
                     </button>
                 </div>
             </div>
@@ -702,7 +702,7 @@ time (see
     <div class="container">
         <div class="solar-footer-content">
             <div class="row">
-                <p class="copyright">Copyright &copy 2022 <a href="index.php" title="Home">www.solar-money-saver.com</a></p>
+                <p class="copyright">Copyright &copy 2022 <a href="index.php" title="Home">www.ahorro.solar</a></p>
             </div>
             <div class="row">
                 <div class="footer-menu">
