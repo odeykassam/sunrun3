@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title></title>
+    <title>Thank You</title>
     <style type="text/css">
         :root {
             --primary: #37ca37;
@@ -1870,29 +1870,17 @@
     <link rel="stylesheet" href="thank-you_files/default.f5865b9f.css">
     <script src="thank-you_files/764912974948083.js" async=""></script>
     <script async="" src="thank-you_files/fbevents.js"></script>
-    <script type="text/javascript" async="">
-        ! function(f, b, e, v, n, t, s) {
-            if(f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if(!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '764912974948083');
-        fbq('track', 'PageView');
-    </script>
+    
+    <?php include('pixelscript.php'); ?>
 </head>
 
 <body data-new-gr-c-s-check-loaded="8.904.0" data-gr-ext-installed="">
+    
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SLK4FV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
 <div id="__nuxt">
     <div>
         <div class="bgCover bg-fixed"></div>
