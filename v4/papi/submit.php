@@ -14,12 +14,11 @@ $country                 = $_POST['country'];
 $postalCode              = $_POST['postal_code'];
 $provider                = $_POST['utility_provider'];
 $propertyOwnership       = $_POST['property_ownership'];
-if ( strpos( $_SERVER['REQUEST_URI'], "-fb" ) !== false ) {
-	$tag = 'fb';
-} else if ( strpos( $_SERVER['REQUEST_URI'], "-tiktok" ) !== false ) {
-	$tag = 'tiktok';
-}
-$apiPayload = [
+$roofShade               = $_POST['roof_shade'];
+$bill                    = $_POST['electric_bill'];
+$tag                     = $_POST['tag'];
+
+$apiPayload                = [
 	'email'     => $email,
 	'firstName' => $firstName,
 	'lastName'  => $lastName,
@@ -27,7 +26,17 @@ $apiPayload = [
 	'country'   => $country,
 	'name'      => sprintf( '%s %s', $firstName, $lastName ),
 	'address1'  => $fullAddress,
+
+	'postalCode' => $postalCode
 ];
+$customsFields             = [
+	'B3GKqU2XFgdhb8siAteJ' => $propertyOwnership,
+	'kHeujw6yVJ9xmKX6Bov9' => $provider,
+	'O2IUfZPmaPtmlHBGlKQO' => $bill,
+	'tMePGVaTrWbFjYLYFJ3z' => $roofShade
+
+];
+$apiPayload['customField'] = $customsFields;
 if ( $tag ) {
 	$apiPayload['tags'] = [ $tag ];
 }
@@ -58,5 +67,5 @@ if ( $err ) {
 	echo "cURL Error #:" . $err;
 	die();
 }
-echo json_encode( [ 'code' => 200, 'body' => true ] );
+echo json_encode( [ 'code' => 200, 'body' => true, 'tag' => $tag ] );
 die();

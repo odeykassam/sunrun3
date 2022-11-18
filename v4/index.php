@@ -321,7 +321,6 @@
   gtag('js', new Date());
   gtag('config', 'AW-10897705597');
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-K287S83"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -419,6 +418,15 @@
     <input type="hidden" id="clickid" name="clickid" value="{clickid}">
     <input type="hidden" id="local_storage" name="local_storage" value="">
     <input type="hidden" id="session_storage" name="session_storage" value="">
+     <?php
+     $tag=null;
+     if ( strpos( $_SERVER['REQUEST_URI'], "-fb" ) !== false ) {
+	     $tag = 'fb';
+     } else if ( strpos( $_SERVER['REQUEST_URI'], "-tiktok" ) !== false ) {
+	     $tag = 'tiktok';
+     }
+     ?>
+    <input type="hidden" id="tag" name="tag" value="<?=$tag?>">
     <fieldset id="form-step1" class="form-steps fieldset-0" data-step="1" style="display: block;" data-tag="homeowner">
         <legend hidden="true">homeowner</legend>
         <h3 class="form_box-question">¿Es usted dueño de casa?</h3>
