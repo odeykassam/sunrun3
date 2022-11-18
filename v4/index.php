@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Smart Solar Savings</title>
+    <title>Ahorro Solar</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -314,7 +314,6 @@
   const _echo_post = window._echo_post = [];
 </script>
 
-
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -326,8 +325,15 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'GTM-K287S83');
-</script></head>
+</script>
+<?php include('pixelscript.php'); ?>
+</head>
 <body class="v2-page en">
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SLK4FV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
 <div id="work-in-progress">
     <div class="progress-materializecss">
         <div class="indeterminate"></div>
@@ -345,7 +351,6 @@
                                     <div class="logo">
                                         <h1>
                                             <img src="/assets/images/637593aba829106aa70778c3.png" alt="Ahorro Solar" title="Ahorro Solar">
-                                            <span>Smart</span>&nbsp;Solar&nbsp;Savings
                                         </h1>
                                     </div>
                                 </div>
@@ -429,7 +434,7 @@
     <input type="hidden" id="tag" name="tag" value="<?=$tag?>">
     <fieldset id="form-step1" class="form-steps fieldset-0" data-step="1" style="display: block;" data-tag="homeowner">
         <legend hidden="true">homeowner</legend>
-        <h3 class="form_box-question">¿Es usted dueño de casa?</h3>
+        <h3 class="form_box-question" id="step_home_owner">¿Es usted dueño de casa?</h3>
         <div class="form-group">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6">
@@ -452,7 +457,7 @@
     </fieldset>
     <fieldset id="form-step2" class="form-steps fieldset-1" data-step="2" style="display: none;" data-tag="zip">
         <legend hidden="true">zipcode</legend>
-        <h3 class="form_box-question">¿Cuál es su código postal?</h3>
+        <h3 class="form_box-question" id="step_zip_code">¿Cuál es su código postal?</h3>
         <div class="form-group">
             <label style="visibility: hidden; position: absolute;" for="zip">Zip Code</label>
             <input id="zip"
@@ -479,7 +484,7 @@
     </fieldset>
     <fieldset id="form-step3" class="form-steps fieldset-2" data-step="3" style="display: none;" data-tag="utilityprovider">
         <legend hidden="true">utility</legend>
-        <h3 class="form_box-question">¿Quién es su proveedor de servicios eléctricos?</h3>
+        <h3 class="form_box-question" id="step_utility_provider">¿Quién es su proveedor de servicios eléctricos?</h3>
         <div class="form-group">
             <label for="provider-select" class="label" style="visibility: hidden; position: absolute;">
                 Who's your utility provider?            </label>
@@ -498,7 +503,7 @@
     </fieldset>
     <fieldset id="form-step4" class="form-steps fieldset-3" data-step="4" style="display: none;" data-tag="utilitybill">
         <legend hidden="true">electric bill</legend>
-        <h3 class="form_box-question">¿Cuánto paga en promedio de electricidad?</h3>
+        <h3 class="form_box-question" id="step_electricity_bill">¿Cuánto paga en promedio de electricidad?</h3>
         <div class="form-group">
             <div class="bill_bar">
 
@@ -524,7 +529,7 @@
     </fieldset>
     <fieldset id="form-step5" class="form-steps fieldset-4" data-step="5" style="display: none;" data-tag="roofshade">
         <legend hidden="true">roof's sun exposure</legend>
-        <h3 class="form_box-question">¿Qué tan soleado es el área de su techo?</h3>
+        <h3 class="form_box-question" id="step_roof_shade">¿Qué tan soleado es el área de su techo?</h3>
         <div class="form-group radio-next">
             <div class="radio-btn">
                 <input id="rf1" type="radio" name="roof_shade" value="No Shade" required checked="" data-tf-value="true">
@@ -556,7 +561,7 @@
     </fieldset>
     <fieldset id="form-step6" class="form-steps fieldset-5" data-step="6" style="display: none;" data-tag="email">
         <legend hidden="true">Email</legend>
-        <h3 class="form_box-question">¿A qué de correo electrónico quieres que enviemos los resultados?</h3>
+        <h3 class="form_box-question" id="step_email">¿A qué de correo electrónico quieres que enviemos los resultados?</h3>
         <div class="form-group">
             <label for="email" class="label" style="visibility: hidden; position: absolute;">
                 Email Address            </label>
@@ -581,7 +586,7 @@
     </fieldset>
     <fieldset id="form-step7" class="form-steps fieldset-6" data-step="7" style="display: none;" data-tag="first">
         <legend hidden="true">First Name</legend>
-        <h3 class="form_box-question">¿Cuál es tu primer nombre?</h3>
+        <h3 class="form_box-question" id="step_first_name">¿Cuál es tu primer nombre?</h3>
         <div class="form-group">
             <input id="first"
                    minlength="2"
@@ -605,7 +610,7 @@
     </fieldset>
     <fieldset id="form-step8" class="form-steps fieldset-7" data-step="8" style="display: none;" data-tag="last">
         <legend hidden="true">Last Name</legend>
-        <h3 class="form_box-question">¿Cuál es tu apellido?</h3>
+        <h3 class="form_box-question" id="step_lastname">¿Cuál es tu apellido?</h3>
         <div class="form-group">
             <input id="last"
                    minlength="2"
@@ -629,7 +634,7 @@
     </fieldset>
     <fieldset id="form-step9" class="form-steps fieldset-8" data-step="9" style="display: none;" data-tag="address">
         <legend hidden="true">Address Name</legend>
-        <h3 class="form_box-question">¿Dónde desea instalar los paneles solares (dirección de la calle)?</h3>
+        <h3 class="form_box-question" id="step_address">¿Dónde desea instalar los paneles solares (dirección de la calle)?</h3>
         <div class="form-group" id="street_address">
             <input id="address" class="form-control" type="text" name="full_address" placeholder="Ejemplo: 1 Grand Street Huntington Beach, CA 92647"
                    value=""
@@ -653,7 +658,7 @@
     </fieldset>
     <fieldset id="form-step10" class="form-steps fieldset-9" data-step="10" style="display: none;" data-tag="phone">
         <legend hidden="true">Phone</legend>
-        <p class="form_box-desc">¿A qué número de teléfono podemos contactarte?</p>
+        <p class="form_box-desc" id="step_phone">¿A qué número de teléfono podemos contactarte?</p>
         <div class="form-group">
             <input id="phone"
                    class="form-control"
@@ -1502,27 +1507,6 @@ prominent notice on our Platform prior to the change becoming effective, and wil
         const moveTo = parseInt(formStep) + 1;
         progressFieldsetSteps((moveTo < 10) ? moveTo : 9, true, true);
       }
-    }
-
-    /**
-     * Track step in 3rd party analytics
-     **/
-    function trackQuestion(step) {
-      let qstep = 'Q' + step;
-      dataLayer.push({'event': qstep});
-      window._loq.push(["tag", qstep, true]);
-      gtag('event', 'page_view', {
-        page_title: qstep,
-        page_location: '/' + version + '/' + qstep,
-        page_path: '/' + version + '/' + qstep,
-        send_to: window.measurement_id
-      })
-      gtag('event', 'survey_step', {
-        event_category: 'survey',
-        event_label: qstep,
-        label: qstep
-      })
-      makeRequest(qstep);
     }
 
     /**
