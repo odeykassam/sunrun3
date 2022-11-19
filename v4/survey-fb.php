@@ -434,13 +434,13 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="radio-btn radio-next">
-                        <input id="pc01" class="form-control" type="radio" name="property_ownership" value="Own" required checked="" data-tf-value="false">
+                        <input id="pc01" class="form-control" type="radio" name="property_ownership" value="Si" required checked="" data-tf-value="false">
                         <label for="pc01"><span>Si</span></label>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="radio-btn">
-                        <input id="pc02" class="form-control" type="radio" name="property_ownership" value="Rent" required data-tf-value="true">
+                        <input id="pc02" class="form-control" type="radio" name="property_ownership" value="No" required data-tf-value="true">
                         <label for="pc02"><span>No</span></label>
                     </div>
                 </div>
@@ -527,19 +527,19 @@
         <h3 class="form_box-question">¿Qué tan soleado es el área de su techo?</h3>
         <div class="form-group radio-next">
             <div class="radio-btn">
-                <input id="rf1" type="radio" name="roof_shade" value="No Shade" required checked="" data-tf-value="true">
+                <input id="rf1" type="radio" name="roof_shade" value="Muy soleado" required checked="" data-tf-value="true">
                 <label for="rf1"><span>Muy soleado</span></label>
             </div>
             <div class="radio-btn">
-                <input id="rf2" type="radio" name="roof_shade" value="A Little Shade" required data-tf-value="false">
+                <input id="rf2" type="radio" name="roof_shade" value="Parcialmente soleado" required data-tf-value="false">
                 <label for="rf2"><span>Parcialmente soleado</span></label>
             </div>
             <div class="radio-btn">
-                <input id="rf3" type="radio" name="roof_shade" value="A Lot of Shade" data-tf-value="false">
+                <input id="rf3" type="radio" name="roof_shade" value="Mucha sombra" data-tf-value="false">
                 <label for="rf3"><span>Mucha sombra</span></label>
             </div>
             <div class="radio-btn">
-                <input id="rf4" type="radio" name="roof_shade" value="Uncertain" data-tf-value="false">
+                <input id="rf4" type="radio" name="roof_shade" value="No lo se" data-tf-value="false">
                 <label for="rf4"><span>No lo se</span></label>
             </div>
             <div class="form-error-message">Pros need this information to generate a quote.            </div>
