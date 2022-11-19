@@ -345,7 +345,6 @@
                                     <div class="logo">
                                         <h1>
                                             <img src="/assets/images/637593aba829106aa70778c3.png" alt="Ahorro Solar" title="Ahorro Solar">
-                                            <span>Smart</span>&nbsp;Solar&nbsp;Savings
                                         </h1>
                                     </div>
                                 </div>
