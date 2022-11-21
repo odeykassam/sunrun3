@@ -315,18 +315,9 @@
 </script>
 
 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-10897705597');
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GTM-K287S83');
-</script></head>
+<?php include('pixelscript.php'); ?>
+	
+	</head>
 <body class="v2-page en">
 <div id="work-in-progress">
     <div class="progress-materializecss">
