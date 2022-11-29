@@ -1,11 +1,19 @@
 <?php
 header( 'Content-type: application/json' );
 
+function clean($string) {
+	$string = str_replace(' ', '-', $string); // Replaces all spaces with hyphens.
+
+	$string= preg_replace('/[^A-Za-z0-9\-]/', '', $string); // Removes special chars.
+	return preg_replace('/-+/', '', $string);
+
+}
+
 $email                   = $_POST['email_address'];
 $firstName               = $_POST['first_name'];
 $lastName                = $_POST['last_name'];
 $fullAddress             = $_POST['full_address'];
-$phone                   = $_POST['phone_home'];
+$phone                   = clean($_POST['phone_home']);
 $interestedInElectric    = $_POST['interested_in_solar_electric'];
 $interestedInHotWater    = $_POST['interested_in_solar_hot_water'];
 $interestedInPoolHeating = $_POST['interested_in_solar_pool_heating'];
@@ -23,7 +31,7 @@ $apiPayload                = [
 	'firstName' => $firstName,
 	'lastName'  => $lastName,
 	'phone'     => $phone,
-	'country'   => $country,
+//	'country'   => $country,
 	'name'      => sprintf( '%s %s', $firstName, $lastName ),
 	'address1'  => $fullAddress,
 
@@ -36,7 +44,9 @@ $customsFields             = [
 	'tMePGVaTrWbFjYLYFJ3z' => $roofShade
 
 ];
+
 $apiPayload['customField'] = $customsFields;
+
 if ( $tag ) {
 	$apiPayload['tags'] = [ $tag ];
 }
@@ -67,5 +77,5 @@ if ( $err ) {
 	echo "cURL Error #:" . $err;
 	die();
 }
-echo json_encode( [ 'code' => 200, 'body' => true, 'tag' => $tag ] );
+echo json_encode( [ 'code' => 200, 'body' => $response, 'tag' => $tag ] );
 die();
