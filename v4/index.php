@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <!-- meta content for search -->
+	<meta name="facebook-domain-verification" content="vpu4sozxe6l3bzb24q13q7937p2myf" />
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <link rel="preload" as="style" href="/assets/css/bootstrap.min.css">
