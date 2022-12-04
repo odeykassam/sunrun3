@@ -83,10 +83,10 @@ if ( $err ) {
 	echo "cURL Error #:" . $err;
 	die();
 }
-$uname = 'dev';
-$pass  = 'Nopass#123';
+$uname = 'abhcwpyywz';
+$pass  = 'UcBVGqnmS6';
 $host  = 'localhost';
-$db    = 'ahoro';
+$db    = 'abhcwpyywz';
 $db    = new DB( $host, $uname, $pass, $db );
 
 $apiPayload['propertyOwnerShip'] = $propertyOwnership;
