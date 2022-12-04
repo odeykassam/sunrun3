@@ -1,11 +1,17 @@
 <?php
+
+use Ahorrosolars\db\DB;
+
+require '../vendor/autoload.php';
+
 header( 'Content-type: application/json' );
 
-function clean($string) {
-	$string = str_replace(' ', '-', $string); // Replaces all spaces with hyphens.
+function clean( $string ) {
+	$string = str_replace( ' ', '-', $string ); // Replaces all spaces with hyphens.
 
-	$string= preg_replace('/[^A-Za-z0-9\-]/', '', $string); // Removes special chars.
-	return preg_replace('/-+/', '', $string);
+	$string = preg_replace( '/[^A-Za-z0-9\-]/', '', $string ); // Removes special chars.
+
+	return preg_replace( '/-+/', '', $string );
 
 }
 
@@ -13,7 +19,7 @@ $email                   = $_POST['email_address'];
 $firstName               = $_POST['first_name'];
 $lastName                = $_POST['last_name'];
 $fullAddress             = $_POST['full_address'];
-$phone                   = clean($_POST['phone_home']);
+$phone                   = clean( $_POST['phone_home'] );
 $interestedInElectric    = $_POST['interested_in_solar_electric'];
 $interestedInHotWater    = $_POST['interested_in_solar_hot_water'];
 $interestedInPoolHeating = $_POST['interested_in_solar_pool_heating'];
@@ -26,7 +32,7 @@ $roofShade               = $_POST['roof_shade'];
 $bill                    = $_POST['electric_bill'];
 $tag                     = $_POST['tag'];
 
-$apiPayload                = [
+$apiPayload    = [
 	'email'     => $email,
 	'firstName' => $firstName,
 	'lastName'  => $lastName,
@@ -37,7 +43,7 @@ $apiPayload                = [
 
 	'postalCode' => $postalCode
 ];
-$customsFields             = [
+$customsFields = [
 	'B3GKqU2XFgdhb8siAteJ' => $propertyOwnership,
 	'kHeujw6yVJ9xmKX6Bov9' => $provider,
 	'O2IUfZPmaPtmlHBGlKQO' => $bill,
@@ -77,5 +83,22 @@ if ( $err ) {
 	echo "cURL Error #:" . $err;
 	die();
 }
-echo json_encode( [ 'code' => 200, 'body' => $response, 'tag' => $tag ] );
+$uname = 'dev';
+$pass  = 'Nopass#123';
+$host  = 'localhost';
+$db    = 'ahoro';
+$db    = new DB( $host, $uname, $pass, $db );
+
+$apiPayload['propertyOwnerShip'] = $propertyOwnership;
+$apiPayload['provider']          = $provider;
+$apiPayload['bill']              = $bill;
+$apiPayload['roofShade']         = $roofShade;
+$msg                             = null;
+try {
+	$db->store( 'leads', $apiPayload );
+} catch ( Exception $e ) {
+	$msg = $e->getMessage();
+}
+
+echo json_encode( [ 'code' => 200, 'body' => $response, 'tag' => $tag, 'msg' => $msg ] );
 die();
