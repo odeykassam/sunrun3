@@ -31,19 +31,20 @@ $propertyOwnership       = $_POST['property_ownership'];
 $roofShade               = $_POST['roof_shade'];
 $bill                    = $_POST['electric_bill'];
 $tag                     = $_POST['tag'];
-
-$apiPayload    = [
+$state                   = $_POST['statec'];
+$apiPayload              = [
 	'email'     => $email,
 	'firstName' => $firstName,
 	'lastName'  => $lastName,
 	'phone'     => $phone,
 //	'country'   => $country,
+	'state'     => $state,
 	'name'      => sprintf( '%s %s', $firstName, $lastName ),
 	'address1'  => $fullAddress,
 
 	'postalCode' => $postalCode
 ];
-$customsFields = [
+$customsFields           = [
 	'B3GKqU2XFgdhb8siAteJ' => $propertyOwnership,
 	'kHeujw6yVJ9xmKX6Bov9' => $provider,
 	'O2IUfZPmaPtmlHBGlKQO' => $bill,
@@ -56,7 +57,6 @@ $apiPayload['customField'] = $customsFields;
 if ( $tag ) {
 	$apiPayload['tags'] = [ $tag ];
 }
-
 $curl = curl_init();
 
 curl_setopt_array( $curl, [

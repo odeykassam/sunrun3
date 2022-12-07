@@ -25,11 +25,11 @@ class DB {
 	 */
 	public function store( $table, $data ) {
 		try {
-			$query = "Insert into $table (email,first_name,last_name,phone,full_name,address,postal_code,owner,provider,bill,roof_shade,created_at) values (?,?,?,?,?,?,?,?,?,?,?,?) ";
+			$query = "Insert into $table (email,first_name,last_name,phone,full_name,address,postal_code,owner,provider,bill,roof_shade,tag,state,created_at) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) ";
 			// prepare and bind
 			$stmt = $this->connection()->prepare( $query );
 
-			$stmt->bind_param( "ssssssssssss",
+			$stmt->bind_param( "ssssssssssssss",
 				$email,
 				$firstName,
 				$lastName,
@@ -41,6 +41,8 @@ class DB {
 				$provider,
 				$bill,
 				$roofShade,
+				$tag,
+				$state,
 				$now );
 
 
@@ -60,6 +62,8 @@ class DB {
 			$provider   = $data['provider'];
 			$bill       = $data['bill'];
 			$roofShade  = $data['roofShade'];
+			$state=$data['state'];
+			$tag=$data['tags'];
 			$now        = date( 'Y-m-d H:i:s' );
 			$stmt->execute();
 		} catch ( Exception $exception ) {

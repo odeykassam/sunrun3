@@ -290,6 +290,7 @@
       st = 'none';
       state = 'none';
     }
+      $('#state').val(st)
 
     return st;
   }
@@ -390,7 +391,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <p><em>Espere mientras guardamos su información.</em></p>
                         </div>
                         <form id="msform" class="form" action="thank-you.php?" novalidate method="post">
-    <input type="hidden" id="token" name="token" value="9741a0c84c1112244e3cce9df3fb31a17217692194c4cd5ffef12c033d5eb9f6">
+                            <input type="hidden" id="state" name="statec"/>
+
+                            <input type="hidden" id="token" name="token" value="9741a0c84c1112244e3cce9df3fb31a17217692194c4cd5ffef12c033d5eb9f6">
     <input id="leadid_token" name="jornaya_lead_id" type="hidden" value=""/>
     <input type="hidden" id="tcpa_text" name="tcpa_text" value="Al hacer clic en Siguiente, acepto los Términos, la privacidad y doy mi consentimiento para que los proveedores de servicios solares/domésticos envíen mensajes de marketing pregrabados y llamadas/textos de marcación automática a mi número de teléfono anterior, incluso si está en alguna lista de no llamar. El consentimiento no es una condición de compra. Puede darse de baja en cualquier momento (ver Términos). Se pueden aplicar tarifas de mensajes/datos.">
     <input type="hidden" id="tcpa_consent" name="tcpa_consent" value="Yes">
@@ -1403,7 +1406,7 @@ prominent notice on our Platform prior to the change becoming effective, and wil
         const details = response.body;
         console.log(details)
         serverCity = details.city;
-        serverState = details.state;
+        serverState = details.state_code;
         serverZip = details.zip;
         serverLong = details.longitude;
         serverLat = details.latitude;
