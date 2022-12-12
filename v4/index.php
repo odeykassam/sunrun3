@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Smart Solar Savings</title>
+    <title>Ahorro Solar</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -336,7 +336,6 @@
                                     <div class="logo">
                                         <h1>
                                             <img src="/assets/images/637593aba829106aa70778c3.png" alt="Ahorro Solar" title="Ahorro Solar">
-                                            <span>Smart</span>&nbsp;Solar&nbsp;Savings
                                         </h1>
                                     </div>
                                 </div>
