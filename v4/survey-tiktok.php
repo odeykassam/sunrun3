@@ -2136,7 +2136,7 @@ prominent notice on our Platform prior to the change becoming effective, and wil
             () => {
               $.ajax({
                 type: "POST",
-                url: "/papi/submit.php?",
+                url: "/papi/submit-pm.php?",
                 data: data,
                 timeout: 30000,
                 error: function() {
