@@ -415,9 +415,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      <?php
      $tag=null;
      if ( strpos( $_SERVER['REQUEST_URI'], "-fb" ) !== false ) {
-	     $tag = 'facebook api';
+	     $tag = 'facebook api 2';
      } else if ( strpos( $_SERVER['REQUEST_URI'], "-tiktok" ) !== false ) {
-	     $tag = 'tiktok api';
+	     $tag = 'tiktok api 2';
      }
      ?>
     <input type="hidden" id="tag" name="tag" value="<?=$tag?>">
