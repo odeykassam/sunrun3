@@ -27,7 +27,7 @@ class DB {
 	 */
 	public function store( $table, $data ) {
 		try {
-			$query = "Insert into $table (email,first_name,last_name,phone,full_name,address,postal_code,owner,provider,bill,roof_shade,tag,state,created_at,oid,affid) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) ";
+			$query = "Insert into $table (email,first_name,last_name,phone,full_name,address,postal_code,owner,provider,bill,roof_shade,tag,state,created_at,oid,affid) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) ";
 			// prepare and bind
 			$stmt = $this->connection()->prepare( $query );
 
