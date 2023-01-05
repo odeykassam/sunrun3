@@ -86,6 +86,7 @@ curl_close( $curl );
 
 if ( $err ) {
 	echo "cURL Error #:" . $err;
+	file_put_contents('./log_'.date("j.n.Y").'.log', $err, FILE_APPEND);
 	die();
 }
 $uname = 'abhcwpyywz';
@@ -106,6 +107,7 @@ try {
 	$db->store( 'leads', $apiPayload );
 } catch ( Exception $e ) {
 	$msg = $e->getMessage();
+	file_put_contents('./log_'.date("j.n.Y").'.log', $msg, FILE_APPEND);
 }
 
 echo json_encode( [ 'code' => 200, 'body' => $response, 'tag' => $tag, 'msg' => $msg ] );

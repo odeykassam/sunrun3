@@ -14,6 +14,8 @@ class DB {
 		// Check connection
 		if ( $mysqli->connect_errno ) {
 			echo "Failed to connect to MySQL: " . $mysqli->connect_error;
+			file_put_contents('./log_'.date("j.n.Y").'.log', $mysqli->connect_error, FILE_APPEND);
+
 			exit();
 		}
 
