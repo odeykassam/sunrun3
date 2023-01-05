@@ -32,6 +32,8 @@ $roofShade               = $_POST['roof_shade'];
 $bill                    = $_POST['electric_bill'];
 $tag                     = $_POST['tag'];
 $state                   = $_POST['statec'];
+$affid                   = $_POST['affid'];
+$oid                     = $_POST['oid'];
 $apiPayload              = [
 	'email'     => $email,
 	'firstName' => $firstName,
@@ -42,15 +44,18 @@ $apiPayload              = [
 	'name'      => sprintf( '%s %s', $firstName, $lastName ),
 	'address1'  => $fullAddress,
 
-	'postalCode' => $postalCode
+	'postalCode' => $postalCode,
 ];
 $customsFields           = [
 	'B3GKqU2XFgdhb8siAteJ' => $propertyOwnership,
 	'kHeujw6yVJ9xmKX6Bov9' => $provider,
 	'O2IUfZPmaPtmlHBGlKQO' => $bill,
-	'tMePGVaTrWbFjYLYFJ3z' => $roofShade
+	'tMePGVaTrWbFjYLYFJ3z' => $roofShade,
+	'Bji84fMEnv49A5cdIK7j' => $affid,
+	'QVkyPJzdOMdrNk39tljT' => $oid,
 
 ];
+
 
 $apiPayload['customField'] = $customsFields;
 
@@ -70,7 +75,7 @@ curl_setopt_array( $curl, [
 	CURLOPT_POSTFIELDS     => json_encode( $apiPayload ),
 	CURLOPT_HTTPHEADER     => [
 		"Authorization: Bearer 86943f3a-46ad-4b32-8865-5311b4b93ac1",
-		"Content-Type: application/json"
+		"Content-Type: application/json",
 	],
 ] );
 
@@ -93,7 +98,10 @@ $apiPayload['propertyOwnerShip'] = $propertyOwnership;
 $apiPayload['provider']          = $provider;
 $apiPayload['bill']              = $bill;
 $apiPayload['roofShade']         = $roofShade;
-$msg                             = null;
+$apiPayload['affid']             = $affid;
+$apiPayload['oid']               = $oid;
+
+$msg = null;
 try {
 	$db->store( 'leads', $apiPayload );
 } catch ( Exception $e ) {

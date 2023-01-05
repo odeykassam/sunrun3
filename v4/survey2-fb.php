@@ -412,15 +412,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <input type="hidden" id="clickid" name="clickid" value="{clickid}">
     <input type="hidden" id="local_storage" name="local_storage" value="">
     <input type="hidden" id="session_storage" name="session_storage" value="">
-     <?php
+
+    <?php
      $tag=null;
      if ( strpos( $_SERVER['REQUEST_URI'], "-fb" ) !== false ) {
 	     $tag = 'facebook api 2';
      } else if ( strpos( $_SERVER['REQUEST_URI'], "-tiktok" ) !== false ) {
 	     $tag = 'tiktok api 2';
      }
+    $oid=null;
+    $affid=null;
+    if ( isset( $_GET['oid'] ) && $_GET['oid'] ) {
+	    $oid = $_GET['oid'];
+    }
+    if ( isset( $_GET['affid'] ) && $_GET['affid'] ) {
+	    $affid = $_GET['affid'];
+    }
      ?>
     <input type="hidden" id="tag" name="tag" value="<?=$tag?>">
+    <input type="hidden" id="oid" name="oid" value=<?=$oid?>>
+    <input type="hidden" id="affid" name="affid" value=<?=$affid?>>
     <fieldset id="form-step1" class="form-steps fieldset-0" data-step="1" style="display: block;" data-tag="homeowner">
         <legend hidden="true">homeowner</legend>
         <h3 class="form_box-question">¿Es usted dueño de casa?</h3>
@@ -802,7 +813,7 @@ Se pueden aplicar tarifas de mensajes/datos.                                    
         <div class="tcpa-content-container">
             <div id="terms-php" class="hidden">
                 <h2 id="terms-php-top">Terms of Use</h2>
-                
+
 <p>Effective July 10th, 2022</p>
 <p>Last Updated October 3rd, 2022</p>
 <p>
@@ -1312,8 +1323,8 @@ prominent notice on our Platform prior to the change becoming effective, and wil
       window._loq.push(["tag", 'Pub ' + a, true]);
     }
         window._loq.push(["tag", 'CF PK', true]);
-    
-    
+
+
     let emailAjaxClient;
     let fetchRequestId;
     let lastprogwidth;
@@ -1399,7 +1410,7 @@ prominent notice on our Platform prior to the change becoming effective, and wil
     }
 
 
-    
+
     function validateZipValue(zip_code) {
         ajaxVerify("/papi/validate.php?op=location&version=v4&postal=" + zip_code, function (response) {
         const details = response.body;
@@ -1548,7 +1559,7 @@ prominent notice on our Platform prior to the change becoming effective, and wil
       const mergedForm = {...formStorage, ...form};
 
             localStorage.setItem('customerData', JSON.stringify(mergedForm));
-      
+
       /**
        * Determine current and next step
        **/
@@ -1559,7 +1570,7 @@ prominent notice on our Platform prior to the change becoming effective, and wil
             if (!fromLocal) {
         localStorage.setItem('formStep', (count > 0) ? step : next_step);
       }
-      
+
       const tag = current_fieldset.data('tag') || step;
       const next_tag = next_fieldset.data('tag') || step;
       $('.' + tag).hide();
@@ -2228,11 +2239,11 @@ prominent notice on our Platform prior to the change becoming effective, and wil
           displayError(zip, "unable to verify prefix");
           return false;
         }
-          
+
 
         working.show();
         ajaxVerify("/papi/validate.php?op=location&version=v4&postal=" + postal, function (response) {
-           
+
           const details = response.body;
             console.log(details)
           serverCity = details.city;
@@ -2449,7 +2460,7 @@ prominent notice on our Platform prior to the change becoming effective, and wil
       // persist engagement
       document.addEventListener('scroll', scrollEgngaged, true);
 
-        
+
     });
   });
 </script>

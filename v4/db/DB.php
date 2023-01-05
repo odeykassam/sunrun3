@@ -25,11 +25,11 @@ class DB {
 	 */
 	public function store( $table, $data ) {
 		try {
-			$query = "Insert into $table (email,first_name,last_name,phone,full_name,address,postal_code,owner,provider,bill,roof_shade,tag,state,created_at) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) ";
+			$query = "Insert into $table (email,first_name,last_name,phone,full_name,address,postal_code,owner,provider,bill,roof_shade,tag,state,created_at,oid,affid) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) ";
 			// prepare and bind
 			$stmt = $this->connection()->prepare( $query );
 
-			$stmt->bind_param( "ssssssssssssss",
+			$stmt->bind_param( "ssssssssssssssss",
 				$email,
 				$firstName,
 				$lastName,
@@ -43,7 +43,9 @@ class DB {
 				$roofShade,
 				$tag,
 				$state,
-				$now );
+				$now,
+				$oid,
+				$affid );
 
 
 // set parameters and execute
@@ -62,9 +64,11 @@ class DB {
 			$provider   = $data['provider'];
 			$bill       = $data['bill'];
 			$roofShade  = $data['roofShade'];
-			$state=$data['state'];
-			$tag=$data['tags'];
+			$state      = $data['state'];
+			$tag        = $data['tags'];
 			$now        = date( 'Y-m-d H:i:s' );
+			$oid        = $data['oid'];
+			$affid      = $data['affid'];
 			$stmt->execute();
 		} catch ( Exception $exception ) {
 			throw new Exception( $exception->getMessage() );
