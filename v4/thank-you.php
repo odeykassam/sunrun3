@@ -1871,7 +1871,6 @@
     <script src="thank-you_files/764912974948083.js" async=""></script>
     <script async="" src="thank-you_files/fbevents.js"></script>
     
-    <?php include('pixelscript.php'); ?>
     <script>
 		!function (w, d, t) {
 		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
