@@ -26,7 +26,7 @@
                                 <div class="">
                                     <div class="logo">
                                         <h1>
-                                            <a href="index.php" title="Smart Solar Savings">
+                                            <a href="spanish.php" title="Smart Solar Savings">
                                                 <img src="/assets/images/logo.png" class="img-fluid" alt="Smart Solar Savings" title="Smart Solar Savings">
                                                 <span>Smart</span>&nbsp;Solar&nbsp;Savings                                            </a>
                                         </h1>
@@ -261,7 +261,7 @@
     <div class="container">
         <div class="solar-footer-content">
             <div class="row">
-                <p class="copyright">Copyright &copy 2022 <a href="index.php" title="Home">www.solar-money-saver.com</a></p>
+                <p class="copyright">Copyright &copy 2022 <a href="spanish.php" title="Home">www.solar-money-saver.com</a></p>
             </div>
             <div class="row">
                 <div class="footer-menu">
