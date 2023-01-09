@@ -90,7 +90,7 @@ if ( $err ) {
 	die();
 }
 $uname = 'xjdeabwvxb';
-$pass  = 'xjdeabwvxb';
+$pass  = '9KSNnab2CA';
 $host  = 'localhost';
 $db    = 'xjdeabwvxb';
 $db    = new DB( $host, $uname, $pass, $db );
