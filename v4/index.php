@@ -313,10 +313,6 @@
   const _echo_get = window._echo_get = {"a":"29928","c":"47901","lp_campid":"630e19bd3561d","lp_campkey":"tN8H9FGRrChgp3M7Jw46"};
   const _echo_post = window._echo_post = [];
 </script>
-
-
-<?php include('pixelscript.php'); ?>
-	
 	</head>
 <body class="v2-page en">
 <div id="work-in-progress">
