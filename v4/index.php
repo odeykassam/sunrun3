@@ -1398,29 +1398,12 @@ prominent notice on our Platform prior to the change becoming effective, and wil
 
     
     function validateZipValue(zip_code) {
-        ajaxVerify("/papi/validate.php?op=location&version=v4&postal=" + zip_code, function (response) {
-        const details = response.body;
-        console.log(details)
-        serverCity = details.city;
-        serverState = details.state;
-        serverZip = details.zip;
-        serverLong = details.longitude;
-        serverLat = details.latitude;
-        $('#locality').val(serverCity);
-        $('#administrative_area_level_1').val(serverState);
-        $('#country').val("USA");
-        $("#postal_code").val(zip_code);
-
-        if (details.savings) {
-          exclusive_estimated_savings.text(details.savings.avg_lifetime_savings);
-          exclusive_state.text(details.savings.state);
-          exclusive_solar_system.text(details.savings.solar_system);
-          exclusive_monthly_bill.text(details.savings.typical_monthly_bill);
-        }
-
-      }, function () {
-        window._loq.push(["tag", 'Zip Err', true]);
-      });
+        var state = getState(zip_code)
+        serverCity = null;
+        serverState =state;
+        serverZip = zip_code;
+        serverLong =null;
+        serverLat =null;
     }
 
     /**
@@ -2449,7 +2432,39 @@ prominent notice on our Platform prior to the change becoming effective, and wil
         
     });
   });
+
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F5GV70RRG0"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5GV70RRG0');
 </script>
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5SLK4FV');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript" src="https://www.jerlnk.com/scripts/sdk/everflow.js"></script>
+<script type="text/javascript"> EF.click({
+        offer_id: EF.urlParameter('oid'),
+        affiliate_id: EF.urlParameter('affid'),
+        sub1: EF.urlParameter('sub1'),
+        sub2: EF.urlParameter('sub2'),
+        sub3: EF.urlParameter('sub3'),
+        sub4: EF.urlParameter('sub4'),
+        sub5: EF.urlParameter('sub5'),
+        uid: EF.urlParameter('uid'),
+        source_id: EF.urlParameter('source_id'),
+        transaction_id: EF.urlParameter('_ef_transaction_id'),
+    });
+</script>
 </body>
 </html>

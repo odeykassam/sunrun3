@@ -89,10 +89,10 @@ if ( $err ) {
 	file_put_contents('./log_'.date("j.n.Y").'.log', $err, FILE_APPEND);
 	die();
 }
-$uname = 'abhcwpyywz';
-$pass  = 'UcBVGqnmS6';
+$uname = 'xjdeabwvxb';
+$pass  = 'xjdeabwvxb';
 $host  = 'localhost';
-$db    = 'abhcwpyywz';
+$db    = 'xjdeabwvxb';
 $db    = new DB( $host, $uname, $pass, $db );
 
 $apiPayload['propertyOwnerShip'] = $propertyOwnership;
