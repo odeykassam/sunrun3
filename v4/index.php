@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Ahorro Solar</title>
+    <title>Smart Solar</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -331,7 +331,7 @@
                                 <div class="heading-survey">
                                     <div class="logo">
                                         <h1>
-                                            <img src="/assets/images/637593aba829106aa70778c3.png" alt="Ahorro Solar" title="Ahorro Solar">
+                                            <img src="/assets/images/logo.png" alt="Smart Solar" title="Smart Solar">
                                         </h1>
                                     </div>
                                 </div>
