@@ -74,7 +74,7 @@ curl_setopt_array( $curl, [
 	CURLOPT_CUSTOMREQUEST  => "POST",
 	CURLOPT_POSTFIELDS     => json_encode( $apiPayload ),
 	CURLOPT_HTTPHEADER     => [
-		"Authorization: Bearer 86943f3a-46ad-4b32-8865-5311b4b93ac1",
+		"Authorization: Bearer f9174c37-b1d6-46f3-a329-1fc18438bb7a",
 		"Content-Type: application/json",
 	],
 ] );
