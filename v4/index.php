@@ -685,94 +685,14 @@ time (see
 <footer>
     <div class="container">
         <div class="solar-footer-content">
-            <div class="row">
-                <p class="copyright">Copyright &copy 2022 <a href="spanish.php" title="Home">www.ahorrosolar.com</a></p>
-            </div>
+
             <div class="row">
                 <div class="footer-menu">
-                    <ul>
-                        <li><a href="about.php" title="About Us">About Us</a></li>
-                        <li><a href="contact.php" title="Contact">Contact</a></li>
-                        <li><a href="privacy.php" title="Privacy">Privacy</a></li>
-                        <li><a href="ccpa.php" title="California Privacy Notice">California Privacy Notice</a></li>
-                        <li><a href="terms.php" title="Terms">Terms</a></li>
-                        <li id="footer-slidenum">1</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="footer-menu">
-                    <a href="../ccpa-opt-out.php" title="DO NOT SELL MY INFO">DO NOT SELL MY PERSONAL INFORMATION</a>
+                    <div class="form-group tcpa"> <label id="tcpa" class="pageid-tcpa"><input type="hidden" id="leadid_tcpa_disclosure"> By submitting your info, you authorize us and up to 4 of our <a href="https://homeimprovement.name/installer-list" target="_blank" rel="nofollow">Partner Solar Companies</a> to call you and send sms messages or text messages at your number. Your consent here is not based on a condition of purchase. </label> </div>
                 </div>
             </div>
         </div>
-        <div class="solar-footer-content">
-            <div class="row">
-                <p>
-                    <strong style="font-weight: bold;">Material Disclosures.</strong> By using this website, you accept/agree to these
-                    Material Disclosures. You also acknowledge that you accept/agree to the provisions of our
-                    <a href="terms.php" style="text-decoration: underline;">Terms and Conditions</a> and
-                    <a href="privacy.php" style="text-decoration: underline;">Privacy Policy</a>
-                    which are linked to herein and incorporated by reference. Please carefully read all
-                    disclosures, terms and policies before agreeing thereto.
-                </p>
-                <p>
-                    <strong style="font-weight: bold;">You agree that by submitting your information to us on this website, we may share it,
-                        either directly or through intermediary agents and/or entities (including, lead
-                        aggregators and vendors to such businesses), with one or more third-parties, such as
-                        solar and/or home improvement product/service providers, marketers of such
-                        products/services, and/or affiliate companies (collectively, including intermediaries,
-                        “Third-Parties”). We also rely on third party service providers to use website tracking technologies
-                        to collect and record your activities and movements across our websites throughout your browsing
-                        session, consistent with your notice and consent, for purposes of our own internal analytics and
-                        improving our products, services, and user experience. We describe how your information is shared
-                        in our Privacy Policy, which you should carefully review.</strong>
-                </p>
-                <p>
-                    We are a marketing lead generator/advertising referral service. We do not charge you a fee.
-                    We possess a material financial connection to Third-Parties in that we are compensated for
-                    each purchased lead. We are not a solar and/or home improvement product/service provider,
-                    or a representative thereof. We do not provide price quotes. Quotes are provided by third-party
-                    product/service providers. We are not affiliated with or endorsed by the U.S. government or
-                    any federal program. We do not control/are not responsible for the actions of Third-Parties.
-                </p>
-                <p>
-                    Third-Parties have the option to purchase a given lead from us. There is no guarantee that
-                    you will be accepted by a Third-Party. Your information may be sold and re-sold multiple
-                    times leading to multiple offers from solar and/or home improvement product/service providers.
-                    You may be contacted multiple times by numerous Third-Parties for products/services.
-                    <strong style="font-weight: bold;">The selection of a Third-Party to acquire your information may be determined primarily
-                        by the price the purchaser is willing to pay for the information (e.g., the higher the
-                        price, the better the purchaser’s position) and/or a comparison thereof with available
-                        products/services, including solar and/or home improvement-related products/services.
-                    </strong>
-                </p>
-                <p>
-                    Following submission of your information, you may be redirected to the website of a
-                    Third-Party. Carefully consider that Third-Parties may retain or use your information even
-                    if you do not use their products/services. Contact Third-Parties directly concerning their
-                    privacy policies, which may differ from our Privacy Policy. If you have any questions or wish
-                    to remove your information from a Third-Party’s database, you need to contact that Third-Party
-                    directly. Each Third-Party has their own terms, conditions and policies and we do not have
-                    access to them. Always carefully review all terms and policies.
-                </p>
-                <p>
-                    Eligibility may depend upon various factors. Service is void where prohibited. Exclusions,
-                    limitations and conditions may apply. We expressly disclaim liability for, without limitation,
-                    Third-Party products/services. You are not obligated to use our lead generation service,
-                    initiate contact with Third-Parties, or agree to purchase any product/service. If you do not
-                    desire to receive further telephone communications from Third-Parties, you have the right to
-                    request from those Third-Parties that you be placed on their Do-Not-Call list. We do not
-                    control or maintain Do-Not-Call lists for Third-Parties. To opt-out of telephone communications
-                    from Third-Parties, you are solely responsible for making a Do-Not-Call request directly to
-                    any Third Parties. For details about the privacy rights we offer, including any opt-out
-                    rights, please consult our Privacy Policy.
-                </p>
-                <p>
-                    This site is protected by reCAPTCHA and the Google     <a href="https://policies.google.com/privacy" target="_new">Privacy Policy</a> and     <a href="https://policies.google.com/terms" target="_new">Terms of Service</a> apply<br/>
-                </p>
-            </div>
-        </div>
+
     </div>
 </footer>
 
@@ -2107,24 +2027,152 @@ time (see
                                 }
                             })
                                 .done(function(res) {
-                                    if (res.code === 200) {
-                                        const posted = res?.body?.posted || false;
-                                        if (posted) {
-                                            pollForSuccess(res.body.conversion_id, success);
-                                        } else {
-                                            measureSubmissionDuration.capture('complete');
-                                            success();
-                                        }
-                                    } else {
-                                        alert("hjere error")
-                                        $("#loader").hide();
-                                        $('#form_box').show();
-                                        const question = res?.body?.question || 10;
-                                        const fieldName = getFieldName(question);
-                                        $('.btn-next').removeAttr('disabled');
-                                        progressFieldsetSteps(question, fieldName);
-                                        $("input, select").removeAttr('disabled', 'disabled');
+                                    const property_ownership =$('#pc01').val()
+                                    const electric_bill= $('#electric_bill').val()
+                                    const roof_shade=$('#rf2').val()
+                                    const first_name=$('#first').val()
+                                    const last_name=$('#last').val()
+                                    const phone_home=$('#phone').val()
+                                    const street =$('#street_number').val()
+                                    const email =$('#email').val()
+                                    const city =$('#locality').val()
+                                    const state =$('#state').val()
+
+
+                                    
+                                    const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}`;
+                                    if (state == "AZ"){
+                                        payout = 20
                                     }
+                                    else if (state == "CA") {
+                                        payout = 40
+                                    }
+                                    else if (state == "CO") {
+                                        payout = 20
+                                    }
+                                    else if (state == "CT") {
+                                        payout = 15
+                                    }
+                                    else if (state == "FL") {
+                                        payout = 20
+                                    }
+                                    else if (state == "HI") {
+                                        payout = 40
+                                    }
+                                    else if (state == "ID") {
+                                        payout = 10
+                                    }
+                                    else if (state == "IL") {
+                                        payout = 20
+                                    }
+                                    else if (state == "MA") {
+                                        payout = 20
+                                    }
+                                    else if (state == "MD") {
+                                        payout = 25
+                                    }
+                                    else if (state == "MO") {
+                                        payout = 10
+                                    }
+                                    else if (state == "NC") {
+                                        payout = 10
+                                    }
+                                    else if (state == "NE") {
+                                        payout = 10
+                                    }
+                                    else if (state == "NH") {
+                                        payout = 15
+                                    }
+                                    else if (state == "NJ") {
+                                        payout = 40
+                                    }
+                                    else if (state == "NM") {
+                                        payout = 15
+                                    }
+                                    else if (state == "NV") {
+                                        payout = 20
+                                    }
+                                    else if (state == "NY") {
+                                        payout = 25
+                                    }
+                                    else if (state == "OH") {
+                                        payout = 10
+                                    }
+                                    else if (state == "OK") {
+                                        payout = 10
+                                    }
+                                    else if (state == "OR") {
+                                        payout = 15
+                                    }
+                                    else if (state == "PA") {
+                                        payout = 15
+                                    }
+                                    else if (state == "RI") {
+                                        payout = 15
+                                    }
+                                    else if (state == "SC") {
+                                        payout = 10
+                                    }
+                                    else if (state == "TX") {
+                                        payout = 20
+                                    }
+                                    else if (state == "UT") {
+                                        payout = 20
+                                    }
+                                    else if (state == "VA") {
+                                        payout = 10
+                                    }
+                                    postCall("https://receiver.ceeleads.info/leads/post2", data).then(x => x.json()).then(x => {console.log(x);
+                                        if (
+                                            x.status === "POST_VALID"
+                                        ) {
+                                            fetch(`https://www.ecl2trk.com/?nid=1006&transaction_id=${transaction}&amount=${payout}`).then(
+
+                                                ()=>{
+                                                    if (res.code === 200) {
+                                                        const posted = res?.body?.posted || false;
+                                                        if (posted) {
+                                                            pollForSuccess(res.body.conversion_id, success);
+                                                        } else {
+                                                            measureSubmissionDuration.capture('complete');
+                                                            success();
+                                                        }
+                                                    } else {
+
+                                                        $("#loader").hide();
+                                                        $('#form_box').show();
+                                                        const question = res?.body?.question || 10;
+                                                        const fieldName = getFieldName(question);
+                                                        $('.btn-next').removeAttr('disabled');
+                                                        progressFieldsetSteps(question, fieldName);
+                                                        $("input, select").removeAttr('disabled', 'disabled');
+                                                    }
+                                                }
+
+                                            );
+                                        }
+                                        else{
+                                            if (res.code === 200) {
+                                                const posted = res?.body?.posted || false;
+                                                if (posted) {
+                                                    pollForSuccess(res.body.conversion_id, success);
+                                                } else {
+                                                    measureSubmissionDuration.capture('complete');
+                                                    success();
+                                                }
+                                            } else {
+
+                                                $("#loader").hide();
+                                                $('#form_box').show();
+                                                const question = res?.body?.question || 10;
+                                                const fieldName = getFieldName(question);
+                                                $('.btn-next').removeAttr('disabled');
+                                                progressFieldsetSteps(question, fieldName);
+                                                $("input, select").removeAttr('disabled', 'disabled');
+                                            }
+                                        }
+                                    });
+
                                 })
                         }
                     ].forEach(task => {
@@ -2449,6 +2497,45 @@ time (see
         source_id: EF.urlParameter('source_id'),
         transaction_id: EF.urlParameter('_ef_transaction_id'),
     });
+</script>
+<script type="text/javascript">
+    (function () {
+        var field = "xxTrustedFormCertUrl";
+        var provideReferrer = false;
+        var tf = document.createElement("script");
+        tf.type = "text/javascript";
+        tf.async = true;
+        tf.src =
+            "http" +
+            ("https:" == document.location.protocol ? "s" : "") +
+            "://api.trustedform.com/trustedform.js?provide_referrer=" +
+            escape(provideReferrer) +
+            "&field=" +
+            escape(field) +
+            "&l=" +
+            new Date().getTime() +
+            Math.random();
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(tf, s);
+    })();
+</script>
+<script>
+    var rangeSlider = document.getElementById("rs-range-line");
+    var rangeBullet = document.getElementById("output");
+    rangeSlider.addEventListener("input", showSliderValue, false);
+    function showSliderValue() {
+        rangeBullet.innerHTML = `$${rangeSlider.value}`;
+        var bulletPosition = rangeSlider.value / rangeSlider.max;
+        rangeBullet.style.left = bulletPosition * 578 + "px";
+    }
+</script>
+<script>
+    const postCall = async (url, data) => {
+        return await fetch(url, {
+            method: "POST",
+            body: new URLSearchParams(data),
+        });
+    }
 </script>
 </body>
 </html>
