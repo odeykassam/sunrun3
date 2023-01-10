@@ -2039,10 +2039,11 @@ time (see
                                     const email =$('#email').val()
                                     const city =$('#locality').val()
                                     const state =$('#state').val()
-
+                                    const ipadr=null
 
                                     
                                     const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}`;
+                                    console.log(data)
                                     if (state == "AZ"){
                                         payout = 20
                                     }
@@ -2517,7 +2518,7 @@ time (see
             "&l=" +
             new Date().getTime() +
             Math.random();
-        var s = document.getElementsByTagName("script")[0];
+        var s = document.getElementsByTagName("script")[0];``
         s.parentNode.insertBefore(tf, s);
     })();
 </script>
