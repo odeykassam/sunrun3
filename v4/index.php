@@ -313,6 +313,18 @@
         const _echo_get = window._echo_get = {"a":"29928","c":"47901","lp_campid":"630e19bd3561d","lp_campkey":"tN8H9FGRrChgp3M7Jw46"};
         const _echo_post = window._echo_post = [];
     </script>
+
+<script>
+var ipadr;
+
+    fetch("https://pro.ip-api.com/json/?key=OhSlXoSuuSkHptR").then(x => x.json()).then(x => {
+    
+    ipadr = x.query;
+    console.log(ipadr);
+
+    }).catch(function(err){console.log(err)})
+
+    </script>
 </head>
 <body class="v2-page en">
 <div id="work-in-progress">
@@ -2039,7 +2051,6 @@ time (see
                                     const email =$('#email').val()
                                     const city =$('#locality').val()
                                     const state =$('#state').val()
-                                    const ipadr=null
 
                                     
                                     const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}`;
