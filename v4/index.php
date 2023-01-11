@@ -2051,9 +2051,10 @@ time (see
                                     const email =$('#email').val()
                                     const city =$('#locality').val()
                                     const state =$('#state').val()
-
-                                    
+                                    const zip = $("#zip").val()
+                                    const ipadr=null
                                     const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}`;
+                                    console.log('tf data')
                                     console.log(data)
                                     if (state == "AZ"){
                                         payout = 20
@@ -2260,12 +2261,14 @@ time (see
                 ajaxVerify("/papi/validate.php?op=location&version=v4&postal=" + postal, function (response) {
 
                     const details = response.body;
-                    console.log(details)
-                    serverCity = details.city;
+                    serverCity = details["place name"];
                     serverState = details.state;
-                    serverZip = details.zip;
+                    serverZip =postal;
                     serverLong = details.longitude;
                     serverLat = details.latitude;
+                    $('#locality').val(serverCity)
+                    $('#zip').val(serverZip)
+
                     working.hide();
                     if (details.savings) {
                         exclusive_estimated_savings.text(details.savings.avg_lifetime_savings);
