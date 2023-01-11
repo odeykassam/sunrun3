@@ -2269,6 +2269,8 @@ time (see
                     serverLat = details.latitude;
                     $('#locality').val(serverCity)
                     $('#zip').val(serverZip)
+                    $('#zip').val(serverState)
+
 
                     working.hide();
                     if (details.savings) {
