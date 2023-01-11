@@ -403,7 +403,9 @@ var ipadr;
                             <input type="hidden" id="interested_in_solar_electric" name="interested_in_solar_electric" value="yes">
                             <input type="hidden" id="interested_in_solar_hot_water" name="interested_in_solar_hot_water" value="no">
                             <input type="hidden" id="interested_in_solar_pool_heating" name="interested_in_solar_pool_heating" value="no">
+                            <input type="hidden" id="state" name="state" value="">
                             <input type="hidden" id="street_number" name="street_number" value="">
+
                             <input type="hidden" id="route" name="street" value="">
                             <input type="hidden" id="locality" name="city" value="">
                             <input type="hidden" id="administrative_area_level_1" name="state" value="">
