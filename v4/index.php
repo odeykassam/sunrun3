@@ -2260,7 +2260,8 @@ time (see
                 working.show();
                 ajaxVerify("/papi/validate.php?op=location&version=v4&postal=" + postal, function (response) {
 
-                    const details = response.body;
+                    let details = response.body;
+                    details = JSON.parse(details)
                     serverCity = details["place name"];
                     serverState = details.state;
                     serverZip =postal;
