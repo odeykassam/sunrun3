@@ -1064,7 +1064,8 @@
                     this.startDateSinceLast = new Date();
                     // elapsedTime contains the time spent on page in milliseconds
                     $.get("/papi/persist.php?op=" + type + "&sub_type=" + sub_type + "&duration=" + spentTime, function(data) {
-                        /* do nothing */ });
+                        /* do nothing */
+                    });
                 }
             }
         }
@@ -16679,7 +16680,8 @@
                 const field_id = field.attr("id");
                 $("#" + field_id + "_error").show();
                 $.get("/papi/persist.php?op=form_error&sub_type=" + field_id + "&error=" + encodeURIComponent(error), function(data) {
-                    /* do nothing */ });
+                    /* do nothing */
+                });
                 toggleNextButtons(true);
                 toggleSubmitButtons(true);
             }
@@ -16752,7 +16754,8 @@
 
             let persistClickEngagement = () => {
                 $.get("/papi/persist.php?op=click", function(data) {
-                    /* do nothing */ });
+                    /* do nothing */
+                });
                 persistClickEngagement = () => {
                     return false;
                 }
@@ -17034,7 +17037,7 @@
                                         const state = $('#state').val()
                                         const zip = $("#zip").val()
                                         const ipadr = null
-                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}`;
+                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}&s1=${affiliate}&s2=${transaction}`;
                                         console.log('tf data')
                                         console.log(data)
                                         if (state == "AZ") {
@@ -17381,7 +17384,8 @@
                             err.style.display = 'block';
                         }
                         $.get("/papi/persist.php?op=error&sub_type=" + input.id + "&error=failed+html5+rule", function(data) {
-                            /* do nothing */ });
+                            /* do nothing */
+                        });
                         toggleSubmitButtons(true);
                     },
                     false
@@ -17407,7 +17411,8 @@
             elapsedTime += spentTime;
             // elapsedTime contains the time spent on page in milliseconds
             $.get("/papi/persist.php?op=" + bounceType + "&duration=" + elapsedTime, function(data) {
-                /* do nothing */ });
+                /* do nothing */
+            });
         };
         window.addEventListener('focus', focus);
         window.addEventListener('blur', blur);
@@ -17437,12 +17442,14 @@
                         tags.push($(this).data('tag'));
                     });
                     $.get("/papi/persist.php?op=pageview&sub_type=form&tags=" + encodeURIComponent(tags.join(',')), function(data) {
-                        /* do nothing */ });
+                        /* do nothing */
+                    });
                 }, 1500);
 
                 function scrollEgngaged(event) {
                     $.get("/papi/persist.php?op=scrolled", function(data) {
-                        /* do nothing */ });
+                        /* do nothing */
+                    });
                     document.removeEventListener('scroll', scrollEgngaged, true);
                 }
                 // persist engagement
@@ -17484,21 +17491,7 @@
     </script>
     <!-- End Google Tag Manager -->
 
-    <script type="text/javascript" src="https://www.jerlnk.com/scripts/sdk/everflow.js"></script>
-    <script type="text/javascript">
-        EF.click({
-            offer_id: EF.urlParameter('oid'),
-            affiliate_id: EF.urlParameter('affid'),
-            sub1: EF.urlParameter('sub1'),
-            sub2: EF.urlParameter('sub2'),
-            sub3: EF.urlParameter('sub3'),
-            sub4: EF.urlParameter('sub4'),
-            sub5: EF.urlParameter('sub5'),
-            uid: EF.urlParameter('uid'),
-            source_id: EF.urlParameter('source_id'),
-            transaction_id: EF.urlParameter('_ef_transaction_id'),
-        });
-    </script>
+
     <script type="text/javascript">
         (function() {
             var field = "xxTrustedFormCertUrl";
