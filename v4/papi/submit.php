@@ -2,7 +2,7 @@
 
 use Ahorrosolars\db\DB;
 
-// require '../vendor/autoload.php';
+require '../vendor/autoload.php';
 
 header('Content-type: application/json');
 

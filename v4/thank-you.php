@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Thank You | Smart Solar Savings</title>
+    <title>Thank You</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -131,7 +131,7 @@
                                             <h1>
                                                 <a href="https://www.solar-money-saver.com/v4/index.php" title="Smart Solar Savings">
                                                     <img src="/assets/images/Logo2.png" class="img-fluid" alt="Smart Solar Savings" title="Smart Solar Savings">
-                                                    <span>Smart</span>&nbsp;Solar&nbsp;Savings </a>
+                                                </a>
                                             </h1>
                                         </div>
                                     </div>
