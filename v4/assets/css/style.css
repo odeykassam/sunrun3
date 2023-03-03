@@ -1234,7 +1234,7 @@ input.error {
 }
 
 .logo img {
-    width: auto;
+    width: 100px;
     margin-right: 7px;
     max-height:150px;
 }

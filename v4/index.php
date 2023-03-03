@@ -368,7 +368,7 @@ gtag('config', 'AW-10927477575'); </script>
                                     <div class="heading-survey">
                                         <div class="logo">
                                             <h1>
-                                                <img src="/assets/images/Logo2.png" alt="Smart Solar Savings" title="Smart Solar Savings">
+                                                <img src="/assets/images/Logo2.png" alt="Powered By Solar Energy" title="Powered By Solar Energy">
                                                 <span>Smart</span>&nbsp;Solar&nbsp;Savings
                                             </h1>
                                         </div>
