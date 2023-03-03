@@ -369,7 +369,7 @@ gtag('config', 'AW-10927477575'); </script>
                                         <div class="logo">
                                             <h1>
                                                 <img src="/assets/images/Logo2.png" alt="Powered By Solar Energy" title="Powered By Solar Energy">
-                                                <span>Smart</span>&nbsp;Solar&nbsp;Savings
+                                                <span>Powered</span>&nbsp;By Solar&nbsp;Energy
                                             </h1>
                                         </div>
                                     </div>
