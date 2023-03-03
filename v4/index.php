@@ -376,7 +376,6 @@
                                         <div class="logo">
                                             <h1>
                                                 <img src="/assets/images/Logo2.png" alt="Powered By Solar Energy" title="Powered By Solar Energy">
-                                                <span>Powered</span>&nbsp;By Solar&nbsp;Energy
                                             </h1>
                                         </div>
                                     </div>
