@@ -2,24 +2,24 @@
 
 use Ahorrosolars\db\DB;
 
-require '../vendor/autoload.php';
+// require '../vendor/autoload.php';
 
-header( 'Content-type: application/json' );
+header('Content-type: application/json');
 
-function clean( $string ) {
-	$string = str_replace( ' ', '-', $string ); // Replaces all spaces with hyphens.
+function clean($string)
+{
+	$string = str_replace(' ', '-', $string); // Replaces all spaces with hyphens.
 
-	$string = preg_replace( '/[^A-Za-z0-9\-]/', '', $string ); // Removes special chars.
+	$string = preg_replace('/[^A-Za-z0-9\-]/', '', $string); // Removes special chars.
 
-	return preg_replace( '/-+/', '', $string );
-
+	return preg_replace('/-+/', '', $string);
 }
 
 $email                   = $_POST['email_address'];
 $firstName               = $_POST['first_name'];
 $lastName                = $_POST['last_name'];
 $fullAddress             = $_POST['full_address'];
-$phone                   = clean( $_POST['phone_home'] );
+$phone                   = clean($_POST['phone_home']);
 $interestedInElectric    = $_POST['interested_in_solar_electric'];
 $interestedInHotWater    = $_POST['interested_in_solar_hot_water'];
 $interestedInPoolHeating = $_POST['interested_in_solar_pool_heating'];
@@ -39,9 +39,9 @@ $apiPayload              = [
 	'firstName' => $firstName,
 	'lastName'  => $lastName,
 	'phone'     => $phone,
-//	'country'   => $country,
+	//	'country'   => $country,
 	'state'     => $state,
-	'name'      => sprintf( '%s %s', $firstName, $lastName ),
+	'name'      => sprintf('%s %s', $firstName, $lastName),
 	'address1'  => $fullAddress,
 
 	'postalCode' => $postalCode,
@@ -59,12 +59,12 @@ $customsFields           = [
 
 $apiPayload['customField'] = $customsFields;
 
-if ( $tag ) {
-	$apiPayload['tags'] = [ $tag ];
+if ($tag) {
+	$apiPayload['tags'] = [$tag];
 }
 $curl = curl_init();
 
-curl_setopt_array( $curl, [
+curl_setopt_array($curl, [
 	CURLOPT_URL            => "https://rest.gohighlevel.com/v1/contacts/",
 	CURLOPT_RETURNTRANSFER => true,
 	CURLOPT_ENCODING       => "",
@@ -72,28 +72,28 @@ curl_setopt_array( $curl, [
 	CURLOPT_TIMEOUT        => 30,
 	CURLOPT_HTTP_VERSION   => CURL_HTTP_VERSION_1_1,
 	CURLOPT_CUSTOMREQUEST  => "POST",
-	CURLOPT_POSTFIELDS     => json_encode( $apiPayload ),
+	CURLOPT_POSTFIELDS     => json_encode($apiPayload),
 	CURLOPT_HTTPHEADER     => [
 		"Authorization: Bearer f9174c37-b1d6-46f3-a329-1fc18438bb7a",
 		"Content-Type: application/json",
 	],
-] );
+]);
 
-$response = curl_exec( $curl );
-$err      = curl_error( $curl );
+$response = curl_exec($curl);
+$err      = curl_error($curl);
 
-curl_close( $curl );
+curl_close($curl);
 
-if ( $err ) {
+if ($err) {
 	echo "cURL Error #:" . $err;
-	file_put_contents('./log_'.date("j.n.Y").'.log', $err, FILE_APPEND);
+	file_put_contents('./log_' . date("j.n.Y") . '.log', $err, FILE_APPEND);
 	die();
 }
 $uname = 'xjdeabwvxb';
 $pass  = '9KSNnab2CA';
 $host  = 'localhost';
 $db    = 'xjdeabwvxb';
-$db    = new DB( $host, $uname, $pass, $db );
+$db    = new DB($host, $uname, $pass, $db);
 
 $apiPayload['propertyOwnerShip'] = $propertyOwnership;
 $apiPayload['provider']          = $provider;
@@ -104,11 +104,11 @@ $apiPayload['oid']               = $oid;
 
 $msg = null;
 try {
-	$db->store( 'leads', $apiPayload );
-} catch ( Exception $e ) {
+	$db->store('leads', $apiPayload);
+} catch (Exception $e) {
 	$msg = $e->getMessage();
-	file_put_contents('./log_'.date("j.n.Y").'.log', $msg, FILE_APPEND);
+	file_put_contents('./log_' . date("j.n.Y") . '.log', $msg, FILE_APPEND);
 }
 
-echo json_encode( [ 'code' => 200, 'body' => $response, 'tag' => $tag, 'msg' => $msg ] );
+echo json_encode(['code' => 200, 'body' => $response, 'tag' => $tag, 'msg' => $msg]);
 die();

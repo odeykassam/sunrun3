@@ -17546,7 +17546,7 @@
             });
         }
 
-        document.querySelector("#q2-next").addEventListener("click", aaa)
+        document.querySelector("#q2-next").addEventListener("click",aaa)
     </script>
 
 </body>
