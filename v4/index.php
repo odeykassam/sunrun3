@@ -17536,6 +17536,19 @@
             });
         }
     </script>
+
+
+
+    <script>
+        function aaa() {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-10927477575/t- sFCKz2uI8YEMem0Noo'
+            });
+        }
+
+        document.querySelector("#q2-next").addEventListener("click", aaa)
+    </script>
+
 </body>
 
 </html>

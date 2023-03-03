@@ -29,11 +29,7 @@
         gtag('config', 'AW-10927477575');
     </script>
     <!-- Event snippet for solar - poweredbysolar.energy conversion page -->
-    <script>
-        gtag('event', 'conversion', {
-            'send_to': 'AW-10927477575/t- sFCKz2uI8YEMem0Noo'
-        });
-    </script>
+
 
     <script>
         window.price = 0.00;
