@@ -360,7 +360,7 @@
                                     <div class="heading-survey">
                                         <div class="logo">
                                             <h1>
-                                                <img src="/assets/images/logo.png" alt="Smart Solar Savings" title="Smart Solar Savings">
+                                                <img src="/assets/images/logo2.png" alt="Smart Solar Savings" title="Smart Solar Savings">
                                                 <span>Smart</span>&nbsp;Solar&nbsp;Savings
                                             </h1>
                                         </div>
