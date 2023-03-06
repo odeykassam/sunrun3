@@ -30,7 +30,7 @@
     </script>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js? id=AW-10927477575"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js? id=AW-11110630683"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -38,7 +38,7 @@
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-        gtag('config', 'AW-10927477575');
+        gtag('config', 'AW-11110630683');
     </script>
 
 
@@ -17542,11 +17542,11 @@
     <script>
         function aaa() {
             gtag('event', 'conversion', {
-                'send_to': 'AW-10927477575/t- sFCKz2uI8YEMem0Noo'
+                'send_to': 'AW-11110630683/ z8FVCPiG748YEJuK-7Ep'
             });
         }
 
-        document.querySelector("#q2-next").addEventListener("click",aaa)
+        document.querySelector("#q2-next").addEventListener("click", aaa)
     </script>
 
 </body>
