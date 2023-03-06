@@ -4757,7 +4757,7 @@ h1.header-heading-h1 span {
     .logo img {
         /*width: 100%;*/
         /*max-width: 55px;*/
-        /*margin: 0 auto;*/
+        margin-right: -40px;
         /*display: block*/
     }
 }
