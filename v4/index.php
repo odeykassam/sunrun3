@@ -41,6 +41,23 @@
         gtag('config', 'AW-11110630683');
     </script>
 
+<script type="text/javascript"
+    src="https://www.jerlnk.com/scripts/sdk/everflow.js"></script>
+
+<script type="text/javascript">
+EF.click({
+    offer_id: EF.urlParameter('oid'),
+    affiliate_id: EF.urlParameter('affid'),
+    sub1: EF.urlParameter('sub1'),
+    sub2: EF.urlParameter('sub2'),
+    sub3: EF.urlParameter('sub3'),
+    sub4: EF.urlParameter('sub4'),
+    sub5: EF.urlParameter('sub5'),
+    uid: EF.urlParameter('uid'),
+    source_id: EF.urlParameter('source_id'),
+    transaction_id: EF.urlParameter('_ef_transaction_id'),
+});
+</script>
 
     <script>
         // This sample uses the Autocomplete widget to help the user select a
@@ -52,8 +69,10 @@
         // src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
         var queryString = window.location.search;
         var urlParams = new URLSearchParams(queryString);
-        var transaction = urlParams.get("sub2");
-        var affiliate = urlParams.get("sub1");
+        var transaction = urlParams.get("oid");
+        var affiliate = urlParams.get("affid");
+
+        
 
         let placeSearch;
         let autocomplete;
@@ -17114,7 +17133,13 @@
                                             if (
                                                 x.status === "POST_VALID"
                                             ) {
-                                                fetch(`https://www.ecl2trk.com/?nid=1006&transaction_id=${transaction}&amount=${payout}`).then(
+                                                 function getCookie(name) {
+                                                let value = `; ${document.cookie}`;
+                                                let parts = value.split(`; ${name}=`);
+                                                return parts.pop().split(';').shift().split("|").shift();
+                                                }
+                                                var everflow = getCookie("ef_tid_c_o_1243");
+                                                fetch(`https://www.ecl2trk.com/?nid=1006&transaction_id=${everflow}&amount=${payout}`).then(
 
                                                     () => {
                                                         if (res.code === 200) {
