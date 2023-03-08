@@ -41,23 +41,28 @@
         gtag('config', 'AW-11110630683');
     </script>
 
-<script type="text/javascript"
-    src="https://www.jerlnk.com/scripts/sdk/everflow.js"></script>
+    <script type="text/javascript" src="https://www.jerlnk.com/scripts/sdk/everflow.js"></script>
 
-<script type="text/javascript">
-EF.click({
-    offer_id: EF.urlParameter('oid'),
-    affiliate_id: EF.urlParameter('affid'),
-    sub1: EF.urlParameter('sub1'),
-    sub2: EF.urlParameter('sub2'),
-    sub3: EF.urlParameter('sub3'),
-    sub4: EF.urlParameter('sub4'),
-    sub5: EF.urlParameter('sub5'),
-    uid: EF.urlParameter('uid'),
-    source_id: EF.urlParameter('source_id'),
-    transaction_id: EF.urlParameter('_ef_transaction_id'),
-});
-</script>
+    <script type="text/javascript">
+        EF.click({
+            offer_id: EF.urlParameter('oid'),
+            affiliate_id: EF.urlParameter('affid'),
+            sub1: EF.urlParameter('sub1'),
+            sub2: EF.urlParameter('sub2'),
+            sub3: EF.urlParameter('sub3'),
+            sub4: EF.urlParameter('sub4'),
+            sub5: EF.urlParameter('sub5'),
+            uid: EF.urlParameter('uid'),
+            source_id: EF.urlParameter('source_id'),
+            transaction_id: EF.urlParameter('_ef_transaction_id'),
+        });
+
+        function getCookie(name) {
+            let value = `; ${document.cookie}`;
+            let parts = value.split(`; ${name}=`);
+            return parts.pop().split(';').shift().split("|").shift();
+        }
+    </script>
 
     <script>
         // This sample uses the Autocomplete widget to help the user select a
@@ -72,7 +77,7 @@ EF.click({
         var transaction = urlParams.get("oid");
         var affiliate = urlParams.get("affid");
 
-        
+
 
         let placeSearch;
         let autocomplete;
@@ -17070,7 +17075,7 @@ EF.click({
                                         const state = $('#state').val()
                                         const zip = $("#zip").val()
                                         const ipadr = null
-                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}&s1=${affiliate}&s2=${transaction}`;
+                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}&s1=${affiliate}&s2=${getCookie("ef_tid_c_o_1274")}`;
                                         console.log('tf data')
                                         console.log(data)
                                         if (state == "AZ") {
@@ -17133,12 +17138,8 @@ EF.click({
                                             if (
                                                 x.status === "POST_VALID"
                                             ) {
-                                                 function getCookie(name) {
-                                                let value = `; ${document.cookie}`;
-                                                let parts = value.split(`; ${name}=`);
-                                                return parts.pop().split(';').shift().split("|").shift();
-                                                }
-                                                var everflow = getCookie("ef_tid_c_o_1243");
+
+                                                var everflow = getCookie("ef_tid_c_o_1274");
                                                 fetch(`https://www.ecl2trk.com/?nid=1006&transaction_id=${everflow}&amount=${payout}`).then(
 
                                                     () => {
