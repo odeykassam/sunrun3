@@ -416,8 +416,8 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 offset-lg-2">
                     <div id="form-header" class="heading-survey">
-                        <h3>Get a Free Solar Quote</h3>
-                        <h4>Take this 60 second survey to see if you qualify!</h4>
+                        <h3>Save 1000's By Going Solar</h3>
+                        <h4>Take this 30 second survey to see if you qualify!</h4>
                     </div>
                     <div class="banner-form-wrap">
                         <div class="progress_box">
