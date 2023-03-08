@@ -17075,7 +17075,7 @@
                                         const state = $('#state').val()
                                         const zip = $("#zip").val()
                                         const ipadr = null
-                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}&s1=${affiliate}&s2=${getCookie("ef_tid_c_o_1274")}`;
+                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}&s1=${affiliate}&s2=${transaction}`;
                                         console.log('tf data')
                                         console.log(data)
                                         if (state == "AZ") {
@@ -17139,8 +17139,8 @@
                                                 x.status === "POST_VALID"
                                             ) {
 
-                                                var everflow = getCookie("ef_tid_c_o_1274");
-                                                fetch(`https://www.ecl2trk.com/?nid=1006&transaction_id=${everflow}&amount=${payout}`).then(
+
+                                                fetch(`https://www.ecl2trk.com/?nid=1006&oid=${transaction}&affid=${affiliate}&amount=${payout}`).then(
 
                                                     () => {
                                                         if (res.code === 200) {
