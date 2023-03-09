@@ -30,7 +30,7 @@
     </script>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js? id=AW-11110630683"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11110630683"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -45,8 +45,8 @@
 
     <script type="text/javascript">
         EF.click({
-            offer_id: EF.urlParameter('oid'),
-            affiliate_id: EF.urlParameter('affid'),
+            offer_id: "1274",
+            affiliate_id: "224",
             sub1: EF.urlParameter('sub1'),
             sub2: EF.urlParameter('sub2'),
             sub3: EF.urlParameter('sub3'),
@@ -17088,7 +17088,7 @@
                                         const state = $('#state').val()
                                         const zip = $("#zip").val()
                                         const ipadr = null
-                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}&s1=${affiliate}&s2=${transaction}`;
+                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}&s1=224&s2=1274`;
                                         console.log('tf data')
                                         console.log(data)
                                         if (state == "AZ") {
@@ -17153,7 +17153,7 @@
                                             ) {
 
 
-                                                fetch(`https://www.ecl2trk.com/?nid=1006&oid=${transaction}&affid=${affiliate}&amount=${payout}`).then(
+                                                fetch(`https://www.ecl2trk.com/?nid=1006&oid=1274&affid=224&amount=${payout}`).then(
 
                                                     () => {
                                                         if (res.code === 200) {
