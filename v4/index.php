@@ -17588,6 +17588,10 @@
         document.querySelector("#q2-next").addEventListener("click", aaa)
     </script>
 
+    <div id="footer">
+        <p> Copyright&copy; 2023&nbsp;poweredbysolar.energy.&nbsp;All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://poweredbysolar.energy/privacy-policy.php">Privacy policy</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://poweredbysolar.energy/terms-and-conditions.php">Privacy policy</a>
+    </div>
+
 </body>
 
 </html>
