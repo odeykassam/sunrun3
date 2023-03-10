@@ -3,12 +3,12 @@
 
 <head>
 
-    <title>Powered By Solar Energy</title>
+    <title>Go Green And Save</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- meta content for search -->
-    <link rel="icon" type="image/png" href="/assets/images/Logo2.png">
+    <link rel="icon" type="image/png" href="/assets/images/Logo3.png">
     <meta name="facebook-domain-verification" content="vpu4sozxe6l3bzb24q13q7937p2myf" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -45,7 +45,7 @@
 
     <script type="text/javascript">
         EF.click({
-            offer_id: "1274",
+            offer_id: "1408",
             affiliate_id: "224",
             sub1: EF.urlParameter('sub1'),
             sub2: EF.urlParameter('sub2'),
@@ -412,7 +412,7 @@
                                     <div class="heading-survey">
                                         <div class="logo">
                                             <h1>
-                                                <img src="/assets/images/Logo2.png" alt="Powered By Solar Energy" title="Powered By Solar Energy">
+                                                <img src="/assets/images/Logo3.png" alt="Go Green And Save" title="Go Green And Save">
                                             </h1>
                                         </div>
                                     </div>
@@ -17092,7 +17092,7 @@
                                         const state = $('#state').val()
                                         const zip = $("#zip").val()
                                         const ipadr = null
-                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}&s1=224&s2=1274`;
+                                        const data = `campid=C414B2A5CABC8B7B&property_ownership=${property_ownership}&electric_bill=${electric_bill}&roof_shade=${roof_shade}&first_name=${first_name}&last_name=${last_name}&phone_home=${phone_home}&street=${street}&email=${email}&city=${city}&state=${state}&zip=${zip}&solar_electric=true&ip_address=${ipadr}&xxTrustedFormCertUrl=${document.querySelector("#xxTrustedFormCertUrl_0").value}&s1=224&s2=1408`;
                                         console.log('tf data')
                                         console.log(data)
                                         if (state == "AZ") {
@@ -17157,7 +17157,7 @@
                                             ) {
 
 
-                                                fetch(`https://www.ecl2trk.com/?nid=1006&oid=1274&affid=224&amount=${payout}`).then(
+                                                fetch(`https://www.ecl2trk.com/?nid=1006&oid=1408&affid=224&amount=${payout}`).then(
 
                                                     () => {
                                                         if (res.code === 200) {

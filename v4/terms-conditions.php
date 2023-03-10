@@ -1,6 +1,6 @@
 <head>
 
-    <title>Powered By Solar Energy</title>
+    <title>Go Green And Save</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -94,7 +94,7 @@
                 <div align="center" style="line-height: 1;"><br></div>
                 <div align="center" style="text-align: left;">
                     <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5;"><span style="font-size:11.0pt;line-height:115%;font-family:Arial;
-Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">We are <bdt class="block-container question question-in-editor" data-id="9d459c4e-c548-e5cb-7729-a118548965d2" data-type="question">Powered By Solar Energy </bdt>
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">We are <bdt class="block-container question question-in-editor" data-id="9d459c4e-c548-e5cb-7729-a118548965d2" data-type="question">Go Green And Save </bdt>
                             <bdt class="block-component"></bdt> (<bdt class="block-component"></bdt>"<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"<bdt class="statement-end-if-in-editor"></bdt>)<span style="font-size:11.0pt;line-height:115%;
 Arial;mso-fareast-font-family:Calibri;color:#595959;mso-themecolor:text1;
 mso-themetint:166;"><span style="font-size:11.0pt;line-height:115%;
@@ -113,12 +113,12 @@ mso-themetint:166;">
                 <div align="center" style="line-height: 1;"><br></div>
                 <div align="center" style="text-align: left;">
                     <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5;"><span style="font-size:11.0pt;line-height:115%;font-family:Arial;
-Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">We operate <bdt class="block-component"></bdt>the website <bdt class="question">https://poweredbysolar.energy</bdt> (the <bdt class="block-component"></bdt>"<strong>Site</strong>"<bdt class="statement-end-if-in-editor"></bdt>)<bdt class="block-component"></bdt>
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">We operate <bdt class="block-component"></bdt>the website <bdt class="question">https://gogreenandsave.net</bdt> (the <bdt class="block-component"></bdt>"<strong>Site</strong>"<bdt class="statement-end-if-in-editor"></bdt>)<bdt class="block-component"></bdt>
                             <bdt class="block-component"></bdt>, as well as any other related products and services that refer or link to these legal terms (the <bdt class="block-component"></bdt>"<strong>Legal Terms</strong>"<bdt class="statement-end-if-in-editor"></bdt>) (collectively, the <bdt class="block-component"></bdt>"<strong>Services</strong>"<bdt class="statement-end-if-in-editor"></bdt>).<bdt class="block-component"></bdt>
                         </span></div>
                     <div class="MsoNormal" style="line-height: 1;"><br></div>
                     <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5;"><span style="font-size:11.0pt;line-height:115%;font-family:Arial;
-Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">You can contact us by <bdt class="block-component">email at <bdt class="question">contact@poweredbysolar.energy</bdt>
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">You can contact us by <bdt class="block-component">email at <bdt class="question">contact@gogreenandsave.net</bdt>
                                 <bdt class="block-component"></bdt> or by mail to <bdt class="question">__________</bdt>
                                 <bdt class="block-component"></bdt>, <bdt class="question">__________</bdt>
                                 <bdt class="block-component"></bdt>
@@ -131,7 +131,7 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">You can contact u
                             </bdt></span></div>
                     <div class="MsoNormal" style="line-height: 1;"><br></div>
                     <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5;"><span style="font-size:11.0pt;line-height:115%;font-family:Arial;
-Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<bdt class="block-component"></bdt>"<strong>you</strong>"<bdt class="statement-end-if-in-editor"></bdt>), and <bdt class="question">Powered By Solar Energy </bdt>, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.<bdt class="block-component"></bdt></span></div>
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<bdt class="block-component"></bdt>"<strong>you</strong>"<bdt class="statement-end-if-in-editor"></bdt>), and <bdt class="question">Go Green And Save </bdt>, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.<bdt class="block-component"></bdt></span></div>
                     <div class="MsoNormal" style="line-height: 1;"><br></div>
                     <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5;"><span style="font-size:11.0pt;line-height:115%;font-family:Arial;
 Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms <bdt class="block-component"></bdt>at any time and for any reason<bdt class="statement-end-if-in-editor"></bdt>. We will alert you about any changes by updating the <bdt class="block-component"></bdt>"Last updated"<bdt class="statement-end-if-in-editor"></bdt> date of these Legal Terms, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.<bdt class="else-block"></bdt></span></div>
@@ -316,7 +316,7 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">Except as set out
                             permission.</span></div>
                     <div class="MsoNormal" style="line-height: 1.5;"><br></div>
                     <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5;"><span style="font-size:11.0pt;line-height:115%;font-family:Arial;
-Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <bdt class="question">contact@poweredbysolar.energy</bdt>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.</span></div>
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <bdt class="question">contact@gogreenandsave.net</bdt>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.</span></div>
                 </div>
                 <div align="center" style="line-height: 1.5;"><br></div>
                 <div align="center" style="text-align: left;">
@@ -584,7 +584,7 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">By using the Serv
                     </div>
                     <div class="MsoNormal" data-custom-class="heading_1" id="ppyes" style="line-height: 1.5;"><strong><span style="line-height: 24.5333px; font-size: 19px;"><strong><span style="line-height: 115%; font-family: Arial; font-size: 19px;"><strong><span style="line-height: 115%; font-family: Arial; font-size: 19px;">8.</span></strong></span></strong>&nbsp;</span>PRIVACY POLICY</strong></div>
                     <div class="MsoNormal" style="line-height: 1.5;"><br></div>
-                    <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5;"><span style="font-size: 11pt; line-height: 16.8667px; color: rgb(89, 89, 89);">We care about data privacy and security. Please review our Privacy Policy:<strong>&nbsp;<bdt class="block-container question question-in-editor" data-id="d10c7fd7-0685-12ac-c717-cbc45ff916d1" data-type="question">https://poweredbysolar.energy/privacy-policy.php</bdt></strong>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in <bdt class="block-component"></bdt>the <bdt class="question">United States</bdt>
+                    <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5;"><span style="font-size: 11pt; line-height: 16.8667px; color: rgb(89, 89, 89);">We care about data privacy and security. Please review our Privacy Policy:<strong>&nbsp;<bdt class="block-container question question-in-editor" data-id="d10c7fd7-0685-12ac-c717-cbc45ff916d1" data-type="question">https://gogreenandsave.net/privacy-policy.php</bdt></strong>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in <bdt class="block-component"></bdt>the <bdt class="question">United States</bdt>
                             <bdt class="block-component"></bdt>
                             <bdt class="block-component"></bdt>. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in <span style="font-size: 11pt; line-height: 16.8667px; color: rgb(89, 89, 89);">
                                 <bdt class="block-component"></bdt>the <bdt class="question">United States</bdt>
@@ -689,7 +689,7 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">By using the Serv
                     </div>
                     <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5; text-align: left;"><span style="font-size: 15px;">You agree to irrevocably submit all disputes related to these Legal Terms or the legal relationship established by these Legal Terms to the jurisdiction of the <bdt class="block-component"></bdt>
                             <bdt class="question">__________</bdt>
-                            <bdt class="statement-end-if-in-editor"></bdt> courts. <bdt class="question">Powered By Solar Energy </bdt> shall also maintain the right to bring proceedings as to the substance of the matter in the courts of the country where you reside or, if these Legal Terms are entered into in the course of your trade or profession, the state of your principal place of business.
+                            <bdt class="statement-end-if-in-editor"></bdt> courts. <bdt class="question">Go Green And Save </bdt> shall also maintain the right to bring proceedings as to the substance of the matter in the courts of the country where you reside or, if these Legal Terms are entered into in the course of your trade or profession, the state of your principal place of business.
                         </span>
                         <bdt class="statement-end-if-in-editor"><span style="font-size: 15px;"></span></bdt>
                     </div>
@@ -780,7 +780,7 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">These Legal Terms
 Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;">In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:</span></div>
                     <div class="MsoNormal" style="line-height: 1.5; text-align: left;"><br></div>
                     <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5; text-align: left;"><span style="font-size: 15px;"><span style="color: rgb(89, 89, 89);">
-                                <bdt class="question"><strong>Powered By Solar Energy </strong></bdt><strong>
+                                <bdt class="question"><strong>Go Green And Save </strong></bdt><strong>
                                     <bdt class="block-component"></bdt>
                                 </strong>
                             </span><strong>
@@ -819,7 +819,7 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"><strong>
                                     </strong></span></strong></strong></div>
                     <div class="MsoNormal" data-custom-class="body_text" style="line-height: 1.5; text-align: left;"><strong><span style="font-size:11.0pt;line-height:115%;font-family:Arial;
 Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"><strong>
-                                    <bdt class="question">contact@poweredbysolar.energy</bdt>
+                                    <bdt class="question">contact@gogreenandsave.net</bdt>
                                 </strong></span></strong></div>
                 </div>
             </div>
