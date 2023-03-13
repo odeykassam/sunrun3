@@ -41,22 +41,8 @@
         gtag('config', 'AW-11110630683');
     </script>
 
-    <script type="text/javascript" src="https://www.jerlnk.com/scripts/sdk/everflow.js"></script>
 
-    <script type="text/javascript">
-        EF.click({
-            offer_id: "1408",
-            affiliate_id: "224",
-            sub1: EF.urlParameter('sub1'),
-            sub2: EF.urlParameter('sub2'),
-            sub3: EF.urlParameter('sub3'),
-            sub4: EF.urlParameter('sub4'),
-            sub5: EF.urlParameter('sub5'),
-            uid: EF.urlParameter('uid'),
-            source_id: EF.urlParameter('source_id'),
-            transaction_id: EF.urlParameter('_ef_transaction_id'),
-        });
-
+    <script>
         function getCookie(name) {
             let value = `; ${document.cookie}`;
             let parts = value.split(`; ${name}=`);
@@ -65,7 +51,7 @@
     </script>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD2MHGNVSL%22%3E"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11110660362"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -74,8 +60,9 @@
         }
         gtag('js', new Date());
 
-        gtag('config', 'G-VD2MHGNVSL');
+        gtag('config', 'AW-11110660362');
     </script>
+
 
     <script>
         // This sample uses the Autocomplete widget to help the user select a
@@ -17585,8 +17572,9 @@
     <script>
         function aaa() {
             gtag('event', 'conversion', {
-                'send_to': 'AW-11110630683/ z8FVCPiG748YEJuK-7Ep'
+                'send_to': 'AW-11110660362/YsMVCOiL0ZEYEIry_LEp'
             });
+
         }
 
         document.querySelector("#q2-next").addEventListener("click", aaa)
