@@ -17144,7 +17144,7 @@
                                             ) {
 
 
-                                                fetch(`https://www.ecl2trk.com/?nid=1006&oid=1408&affid=224&amount=${payout}`).then(
+                                                fetch(`https://www.ecomfylk.com/?nid=1006&oid=1408&affid=224&amount=${payout}`).then(
 
                                                     () => {
                                                         if (res.code === 200) {
