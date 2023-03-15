@@ -17,7 +17,8 @@
     <script type="text/javascript" async="" src="thank-you_files/analytics.js"></script>
     <script async="" defer="defer" src="thank-you_files/gtm.js"></script>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11110630683"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11110660362"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -25,15 +26,29 @@
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-        gtag('config', 'AW-11110630683');
+
+        gtag('config', 'AW-11110660362');
     </script>
+
     <!-- Event snippet for solar - poweredbysolar.energy conversion page -->
 
     <!-- Event snippet for Requested Quote Completed conversion page -->
     <script>
         gtag('event', 'conversion', {
-            'send_to': 'AW-11110630683/kRgFCOzO7JAYEJuK-7Ep'
+            'send_to': 'AW-11110660362/YsMVCOiL0ZEYEIry_LEp'
         });
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XX1DLGG5VV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XX1DLGG5VV');
     </script>
 
 
