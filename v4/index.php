@@ -63,6 +63,18 @@
         gtag('config', 'AW-11110660362');
     </script>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XX1DLGG5VV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XX1DLGG5VV');
+    </script>
+
 
     <script>
         // This sample uses the Autocomplete widget to help the user select a
