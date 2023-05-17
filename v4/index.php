@@ -734,20 +734,14 @@
     <footer>
         <div class="container">
             <div class="solar-footer-content">
-
-            <div class="row">
+                <div class="row">
                     <div class="footer-menu">
-                        <div class="form-group tcpa"> <label id="tcpa_label" class="pageid-tcpa"><input type="hidden" id="leadid_tcpa_disclosure"> By submitting your info, you authorize us and up to 4 of our <a href="companylist.php" target="_blank">Partner Solar Companies</a> to call you and send sms messages or text messages at your number. Your consent here is not based on a condition of purchase, agreeing to our <a href="terms.php" target="_new">Terms</a> and
-                        <a href="privacy.php" target="_new">Privacy</a> Policies. </label> 
-                    </div>
                         <div id="footer" class="form-group">
-                            <p> Copyright&copy; 2023&nbsp;poweredbysolar.energy.&nbsp;All Rights Reserved &nbsp;<a href="https://gogreenandsave.net/privacy-policy.php">Privacy policy</a> || <a href="https://gogreenandsave.net/terms-conditions.php">Terms And Conditions</a> </p>
+                            <p id="tcpa_label"> Copyright&copy; 2023&nbsp;poweredbysolar.energy.&nbsp;All Rights Reserved &nbsp;<a href="privacy.php" target="_new">Privacy policy</a> || <a href="terms.php" target="_new">Terms And Conditions</a> </p>
                         </div>
-
                     </div>
                 </div>
             </div>
-
         </div>
     </footer>
 
