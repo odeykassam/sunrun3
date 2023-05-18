@@ -429,7 +429,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 offset-lg-2">
                     <div id="form-header" class="heading-survey">
                         <h3>Get Your Free Quote</h3>
-                        <h4>Take this 30 second questionnaire to see if you qualify!</h4>
+                        <h4>Take this questionnaire for your free quote!</h4>
                     </div>
                     <div class="banner-form-wrap">
                         <div class="progress_box">
