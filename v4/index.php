@@ -736,8 +736,8 @@
             <div class="solar-footer-content">
                 <div class="row" style="justify-content: center;">
                     <div class="footer-menu">
-                        <div id="footer" class="form-group">
-                            <p id="tcpa_label"> Copyright&copy; 2023&nbsp;poweredbysolar.energy.&nbsp;All Rights Reserved &nbsp;<a href="privacy.php" target="_new">Privacy policy</a></p>
+                    <div id="footer" class="form-group">
+                            <p id="tcpa_label"> Copyright&copy; 2023&nbsp;poweredbysolar.energy.&nbsp;All Rights Reserved &nbsp;<a href="privacy.php" target="_new">Privacy policy</a> || <a href="terms.php" target="_new">Terms and Conditions</a></p>
                         </div>
                     </div>
                 </div>
@@ -753,60 +753,126 @@
                 <div id="terms-php" class="hidden">
                     <h2 id="terms-php-top">Terms of Use</h2>
 
-                    <p>Effective July 10th, 2022</p>
-                    <p>Last Updated October 3rd, 2022</p>
-                    <p>
-                        Thanks for visiting our Site www.solar-money-saver.com! We appreciate your business and ask that you please read our terms and conditions carefully before using our Website (“Website”, “Site” or “App”). This site is owned and operated by Ecomfylead (“Ecomfylead,” “we,” “us” or “our”). All terms and conditions mentioned on this page (I.E. “the Terms”) govern how you use and access our site and all services that we provide to you via our site (I.E. “Smart Services”). Our terms outline a legal contract between you and Ecomfylead. When you use our Site and any of our Smart Services, you hereby agree to be bound by these Terms and warrant that you are above the age of 18. If you do not agree to our terms and conditions don’t use our Site or Smart Services; it’s that simple.</p>
-                    <p>
-                        Our terms and conditions policy is effective as of the date that we specify above. We reserve the right to change or modify the terms and conditions at any time. Your use of our site or Smart Services constitutes your acceptance of such changes or modified terms, so please check this page periodically.</p>
-                    <p>
-                        All Smart Services include the incorporation of a variety of third party solar products, brokers, carriers via advertisement of solar quotes, online purchases, emails, phone calls, text messages or any other marketing medium. This hereby serves as your notice that you may have third parties contact you on our behalf.</p>
-                    <p>
-                        Entering your information on our web forms with your consent does not constitute a condition of purchase as solar products and services vary by state as well as information you provide regarding your home and property.</p>
-                    <p>
-                        Third-party solar products that are purchased by you via our Website are subject to contracts you’ve made with the applicable solar company. In the event of a conflict between our terms and the terms you’ve accepted with a solar company, the terms you’ve accepted with the solar company precede ours.</p>
-                    <h3>USER CONDUCT</h3>
-                    <p>
-                        You hereby agree to NOT use this Website for the following purposes or activities: conducting any illegal activity at any time whatsoever; such as transmitting or storing worms, viruses, code of a destructive nature, threatening, harassing, abusing, impersonating, injuring, intimidating others or any interference with others’ use of this Website (unless such interference is intended to purposefully comply with another section of the terms listed on this page). This includes delivering spam, collecting information to deliver spam, sending unsolicited email advertisements, decompiling, disassembling, reverse engineering, attempting to discover source code contained in the Website, disguising the origin of content sent through this Website (or your presence on the Website); and/or causing launch of any sort of automated system accessing this Website in a manner to send more request messages to servers of the site than a person could reasonably produce via the use of a conventional web browser in the same period.</p>
-                    <h3>INTELLECTUAL PROPERTY ('IP')</h3>
-                    <p>
-                        www.solar-money-saver.com contains text, graphics, images, photographs and a variety of other materials provided on behalf of us and your use of our Smart Services. All materials and information we collect is collectively referred to as “content” and that content is owned by us/our licensors. This content is protected under both US and foreign copyright laws/treaties. Content includes (but is not limited to) trademarks, service marks, logos used and displayed on our sites which are registered and non-registered trademarks/service marks of our licensors. The organization and design of our Websites are the sole property of Ecomfylead and are protected worldwide by various copyright laws and treaty provisions.</p>
-                    <p>
-                        You shall not (without our express written permission in each use or instance) use our trademarks, service marks, logos, or site code/content or copy the use of the content for any purpose. Removal of any copyright or proprietary notices contained in the original content on a copy made of the source content (as well as any selling, transferring, assignment, licensing, sublicening or modification of the content) or use of the content for any public or commercial purpose, including use or publishment of content is strictly prohibited.</p>
-                    <p>
-                        Nothing in our Terms or Conditions of Use shall be construed as conferring license, rights of trademarks or intellectual property rights of Ecomfylead or any other party. Any and all trademarks, trade names, service marks, logos or other images displayed throughout the Website are the sole property of Ecomfylead, licensed by Ecomfylead, or owned by third parties. Therefore, you shall not display, use links, meta tags, or any other use of trademarks, service marks, logos or images displayed throughout the Website without prior express written consent of the owner of the trademark, service mark, trade name, or logo.</p>
-                    <h3>UNSOLICITED INFORMATION</h3>
-                    <p>
-                        All Smart Services are provided for inquiries and peer-to-peer interactions, and you alone are responsible for your use of these Smart Services. When you submit any unsolicited information and materials on our page (including any comments, ideas, questions or similar communication to our site - AKA “unsolicited information”) you agree to adhere to and be bound by our terms and conditions. Any and all unsolicited information you provide to us is considered NON-CONFIDENTIAL, NON-PROPRIETARY, and will become Ecomfylead’s property upon submission. We are therefore entitled to use this communication and materials for any purpose whatsoever that we choose; including commercial or otherwise. This can include but is not limited to the reproduction, transmission, disclosure, broadcast, further publication/posting without compensation to said provider of the Unsolicited Information.</p>
-                    <p>
+                    <p>Effective June 1st, 2023</p>
+                    <p>Last Updated June 6th, 2023</p>
 
-                        Furthermore, we reserve the right to use ideas, concepts, techniques or know-how in any/all communications/material sent to our site for any purpose whatsoever. This could include (but is not limited to) commercial uses or otherwise, such as developing, manufacturing or marketing products. With any submittal of unsolicited information, you grant us permission to the perpetual use, reproduction, modification, adaptation, publication, translation, distribution, transmission, public display, public performance, sublicense, derivative works creation, transfer or sale of such Unsolicited Information. Notwithstanding anything mentioned herein, your personal information (submitted to Ecomfylead) through the pages located on the Website is held in confidence by us as set forth in our <a href="privacy.php" title="Privacy Policy">Privacy Policy</a>.
+                    <p>Welcome to poweredbysolarenergy.org!</p>
 
-                    </p>
-                    <h3 id="collection-of-information">COLLECTION AND USE OF INFORMATION</h3>
-                    <p>
-                        We at Ecomfylead respect and protect the privacy of our users. Your use of our Smart Services may transmit information, including possibly personally identifiable information. The collection and use of this personal information collected by smartsolarsavings.com is governed by our <a href="privacy.php" title="Privacy Policy">Privacy Policy</a>, hereby incorporated by reference in its entirety. It’s important that you read and comprehend the terms of our <a href="privacy.php" title="Privacy Policy">Privacy Policy</a>. Ecomfylead may cooperate and disclose various information (including your account information) to authorities, government officials or third parties without notice to you in connection to investigations, proceedings, or claims that arise from asserted illegal actions/infringements related or unrelated to your use/misuse of the Website.</p>
-                    <h3>DISCLAIMER AND LIMITATION OF LIABILITY</h3>
-                    <p>
-                        YOU HEREBY ACKNOWLEDGE AND AGREE THAT THE SITE, SMART SERVICES AND CONTENT IS PROVIDED TO YOU “AS IS,” “AS AVAILABLE” WITHOUT ANY WARRANTY OF ANY KIND EITHER EXPRESSED OR IMPLIED. THIS INCLUDES (WITHOUT LIMITATION) WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR ANY PURPOSE. WE WILL NOT BE HELD LIABLE FOR DAMAGES, VIRUSES (OF ANY KIND), YOUR COMPUTER, EQUIPMENT, OR OTHER PROPERTY THAT ACCESSES THE WEBSITE, SMART SERVICES OR CONTENT.</p>
-                    <p>
-                        ALL SOLAR PRODUCT QUOTES OR PRODUCTS SOLD THROUGH THE SITE ARE ASSOCIATED WITH THIRD PARTIES' PRODUCTS AND ARE NOT OUR PRODUCTS. THEREFORE, WE MAKE NO REPRESENTATIONS OR WARRANTIES RELATED TO THE PRODUCTS WITH RESPECT TO SUCH PRODUCTS, AND ACCEPT NO LIABILITY IN CONNECTION WITH THEM. ALL SUCH PRODUCTS ARE PROVIDED TO YOU PURSUANT TO THE TERMS AND CONDITIONS OF THE SOLAR COMPANY PROVIDING SUCH PRODUCTS.</p>
-                    <p>
-                        IN NO EVENT SHALL WE BE LIABLE FOR DIRECT, SPECIAL, INDIRECT, PUNITIVE, EXEMPLARY, OR OTHER CONSEQUENTIAL DAMAGES. THIS CAN INCLUDE BUT IS NOT LIMITED TO LOST PROFITS, REVENUES OR SAVINGS EVEN IF WE HAVE BEEN ADVISED OF SUCH POSSIBILITY IN ADVANCE. DUE TO THE LACK OF JURISDICTION IN SOME JURISPRUDENCES REGARDING LIMITATION OF LIABILITY, IN SUCH JURISDICTIONS OUR LIABILITY IS LIMITED TO THE FURTHEST EXTENT GRANTED BY APPLICABLE LAW. YOUR SOLE REMEDY FOR DISSATISFACTION WITH OUR SITE, SERVICE, OR CONTENT IS TO NOT USE THE SITE.</p>
-                    <h3>EXTERNAL SITES</h3>
-                    <p>
-                        Our site may contain links to third party Websites that provide third party products and services that are made available to you through our Smart Services (“External Sites”). Our control of these External Sites is limited to our Smart Services sending the data and we do not endorse or control; nor are responsible for for the content of any linked External Sites. We are not to be held responsible or liable for any of the products/services/content of the External Sites as they are provided at your convenience to be accessed entirely at your own risk. We do, however, seek to protect the viability of our Website and welcome feedback regarding external links. This can include but is not limited to information regarding broken or defunct links.</p>
-                    <h3>INDEMNIFICATION</h3>
-                    <p>
-                        You shall indemnify, defend and hold us, our officers, employees, directors, successors, licensees and assigns harmless from and against any claims, actions or demands. This includes but is not limited to limitations and reasonable legal or accounting fees arising or resulting from the use of (i) your breach of our Terms (ii) your access or use of our site (iii) misuse of Smart Services (iv) our content.</p>
-                    <h3>TERMINATION</h3>
-                    <p>
-                        We reserve the right to terminate the Terms and/or your access to any/parts of the Website or the Smart Services we use at any time for any reason without any notice or liability. We also reserve the right to change, suspend, discontinue or otherwise hold any part of the Website or Smart Services from any user of the Website at any time without prior notice or liability.</p>
-                    <h3>MISCELLANEOUS</h3>
-                    <p>
-                        We respect applicable laws and regulations and seek to perform in accordance with them. Therefore, in the event that any portion of the Terms and Conditions listed here is held to be invalid or unenforceable, applicable law shall be used to reflect the original intentions of the parties in question. The remaining provisions listed in these Terms shall remain in full force and effect. This section, and the sections entitled Disclaimer, Limitation of Liability, Indemnification and Intellectual Property shall survive the termination of these terms. These Terms shall not be assigned or waived unless done so in writing. Neither the course of conduct between the parties in question nor trade practices shall act in modification or provisions of these Terms. You (the user) are solely responsible for compliance with applicable laws and regulations governing your use of this Website. These Terms contain our entire agreement with respect to our customers and the subject matter in these Terms and Conditions supersede all prior agreements whether they be oral, written or otherwise between all parties regarding the subject matter.</p>
-                    <p>
-                        All questions, comments, or requests for information about our Terms should be directed to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="335a5d555c18405c5f52411e5e5c5d564a1e40524556411d505c5e73405e524147405c5f52414052455a5d54401d505c5e1d">[email&#160;protected]</a> You may also write to us at Ecomfylead, 1740 H. Dell Range Blvd #281, Cheyenne, WY 82009.</p>
+                    <p>These terms and conditions outline the rules and regulations for the use of EcomfyLead's Website, located at https://poweredbysolarenergy.org.</p>
+
+                    <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use poweredbysolarenergy.org if you do not agree to take all of the terms and conditions stated on this page.</p>
+
+                    <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services, in accordance with and subject to, prevailing law of us. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
+
+                    <h3><strong>Cookies</strong></h3>
+
+                    <p>We employ the use of cookies. By accessing poweredbysolarenergy.org, you agreed to use cookies in agreement with the EcomfyLead's Privacy Policy. </p>
+
+                    <p>Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
+
+                    <h3><strong>License</strong></h3>
+
+                    <p>Unless otherwise stated, EcomfyLead and/or its licensors own the intellectual property rights for all material on poweredbysolarenergy.org. All intellectual property rights are reserved. You may access this from poweredbysolarenergy.org for your own personal use subjected to restrictions set in these terms and conditions.</p>
+
+                    <p>You must not:</p>
+                    <ul>
+                        <li>Republish material from poweredbysolarenergy.org</li>
+                        <li>Sell, rent or sub-license material from poweredbysolarenergy.org</li>
+                        <li>Reproduce, duplicate or copy material from poweredbysolarenergy.org</li>
+                        <li>Redistribute content from poweredbysolarenergy.org</li>
+                    </ul>
+
+                    <p>This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the <a href="https://www.termsandconditionsgenerator.com/">Free Terms and Conditions Generator</a>.</p>
+
+                    <p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. EcomfyLead does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of EcomfyLead,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, EcomfyLead shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
+
+                    <p>EcomfyLead reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
+
+                    <p>You warrant and represent that:</p>
+
+                    <ul>
+                        <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
+                        <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li>
+                        <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
+                        <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
+                    </ul>
+
+                    <p>You hereby grant EcomfyLead a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
+
+                    <h3><strong>Hyperlinking to our Content</strong></h3>
+
+                    <p>The following organizations may link to our Website without prior written approval:</p>
+
+                    <ul>
+                        <li>Government agencies;</li>
+                        <li>Search engines;</li>
+                        <li>News organizations;</li>
+                        <li>Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and</li>
+                        <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
+                    </ul>
+
+                    <p>These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party's site.</p>
+
+                    <p>We may consider and approve other link requests from the following types of organizations:</p>
+
+                    <ul>
+                        <li>commonly-known consumer and/or business information sources;</li>
+                        <li>dot.com community sites;</li>
+                        <li>associations or other groups representing charities;</li>
+                        <li>online directory distributors;</li>
+                        <li>internet portals;</li>
+                        <li>accounting, law and consulting firms; and</li>
+                        <li>educational institutions and trade associations.</li>
+                    </ul>
+
+                    <p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of EcomfyLead; and (d) the link is in the context of general resource information.</p>
+
+                    <p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party's site.</p>
+
+                    <p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to EcomfyLead. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
+
+                    <p>Approved organizations may hyperlink to our Website as follows:</p>
+
+                    <ul>
+                        <li>By use of our corporate name; or</li>
+                        <li>By use of the uniform resource locator being linked to; or</li>
+                        <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party's site.</li>
+                    </ul>
+
+                    <p>No use of EcomfyLead's logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
+
+                    <h3><strong>iFrames</strong></h3>
+
+                    <p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p>
+
+                    <h3><strong>Content Liability</strong></h3>
+
+                    <p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
+
+                    <h3><strong>Reservation of Rights</strong></h3>
+
+                    <p>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it's linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
+
+                    <h3><strong>Removal of links from our website</strong></h3>
+
+                    <p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
+
+                    <p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p>
+
+                    <h3><strong>Disclaimer</strong></h3>
+
+                    <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
+
+                    <ul>
+                        <li>limit or exclude our or your liability for death or personal injury;</li>
+                        <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
+                        <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
+                        <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
+                    </ul>
+
+                    <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
+
+                    <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
 
                     <style>
                         strong {
@@ -816,263 +882,92 @@
                 </div>
                 <div id="privacy-php" class="hidden">
                     <h2 id="privacy-php-top">Privacy Policy</h2>
-                    <p>Effective July 10th, 2022</p>
-                    <p>Last Updated October 3rd, 2022</p>
-                    <p>Ecomfylead and its affiliated entities (“Ecomfylead”) are committed to respecting your privacy and protecting
-                        your personal information. This Privacy Policy explains the types of personal information we may collect from
-                        visitors to our websites, including www.smartsolarsavings.com and all related websites, mobile apps, and web-based
-                        services (our “Sites”). This Policy also describes how we use personal information, the purpose for sharing and
-                        recipients of personal information, and your available rights and choices associated with that information.</p>
-                    <p>This Privacy Policy is provided in a layered format. You can jump to a specific section by clicking on the section
-                        below:</p>
-                    <ol>
-                        <li><a href="#section1">Collection of Personal Information</a></li>
-                        <li><a href="#section2">Use of Personal Information</a></li>
-                        <li><a href="#section3">Sharing of Personal Information</a></li>
-                        <li><a href="#section4">Your Rights and Choices</a></li>
-                        <li><a href="#section5">Data Security</a></li>
-                        <li><a href="#section6">International Data Transfers</a></li>
-                        <li><a href="#section7">Cookie Policy</a></li>
-                        <li><a href="#section8">Children’s Privacy</a></li>
-                        <li><a href="#section9">Links to Other Websites</a></li>
-                        <li><a href="#section10">Changes to This Privacy Policy</a></li>
-                        <li><a href="#section11">Contact Us</a></li>
-                    </ol>
-                    <p>This Privacy Policy does not apply to third-party websites, products or services, even if they link to our Sites. We
-                        recommend you review the privacy practices of those third parties before connecting accessing third party websites
-                        and sharing any personal information.</p>
-                    <p>We also encourage you to review our <a href="terms.php">Terms of Use</a> and <a href="ccpa.php">California Privacy Notice</a>, to understand how your
-                        personal information will be treated as you make full use of our Sites. Unless otherwise defined in this Privacy
-                        Policy, capitalized terms used in this Privacy Policy have the same meanings as in our Terms of Use.</p>
+                    <p>Effective June 1st, 2023</p>
+                    <p>Last Updated June 6th, 2023</p>
+                    <h1>Privacy Policy for EcomfyLead</h1>
 
-                    <h3 id="section1">1. Collection of Personal Information</h3>
-                    <p>For purposes of this Privacy Policy, “personal information” means any information that relates to an identified or
-                        identifiable individual. The personal information we collect through our Sites will be apparent by the context of
-                        the page, and may include but is not limited to the following types of information.</p>
-                    <h4><strong>a. Personal information you provide to us</strong></h4>
-                    <p>We may collect the following personal information about you that you choose to provide us when you use our Sites:</p>
-                    <ul>
-                        <li><strong>Contact information.</strong> When you fill out an online webform with Ecomfylead, you may be asked to
-                            provide your first and last name, email address, residential address, zip code, and phone number.
-                        </li>
-                        <li><strong>Commercial information.</strong> You may also be asked to provide various information related to your
-                            home and home energy usage, such as your utility provider, utility and average monthly electric bill, and the
-                            amount of solar exposure on your place of residence.
-                        </li>
-                    </ul>
-                    <h4><strong>b. Information that we automatically collect</strong></h4>
-                    <p>Our Sites use cookies and other tracking technologies such as web beacons, embedded scripts, and tags (“Cookies”),
-                        which collect information from you automatically as your use our Sites, including:</p>
-                    <ul>
-                        <li>
-                            <strong>Browser and device data</strong>, such as IP address, device identifier, device type, operating system
-                            and Internet browser type, screen resolution, operating system name and version, device manufacturer and model,
-                            language, plug-ins, add-ons, and the language version of the Sites you are visiting; and
-                        </li>
-                        <li>
-                            <strong>Usage data</strong>, such as geolocation data, browsing history, time spent on the Sites, pages visited,
-                            links clicked, language preferences, patterns of use, and the pages that led or referred you to our Site.
-                        </li>
-                    </ul>
-                    <p>We also collect information about your online activities on websites and connected devices over time and across
-                        third-party websites, devices, apps, and other online features and services. For example, some of our community
-                        websites may use Google Analytics on our Sites to help us analyze your use of our Sites and diagnose technical
-                        issues. As another example, we may utilize cookies and other third party trackers that collect basic tracking
-                        information about users that click on links to our Promotions Providers’ websites from our Site.</p>
-                    <p>
-                        You are specifically advised that, consistent with your agreed-upon
-                        <a href="terms.php">Terms of Use</a>,
-                        Our website utilizes tracking technologies to collect and record your activities
-                        and movements across our websites throughout your browsing session, including to
-                        track button clicks, mouse movements, scrolling, resizing, touches, keystrokes, data
-                        entered, device information and orientation, browser visual elements, and screen size
-                        (“Session Data”), for purposes of our own internal analytics and improving our
-                        products, services, and user experience. Such tracking may include recorded
-                        sessions, which we may play back for these purposes. We may share Session Data
-                        with, or Session Data may be created by, our third party analytics or service
-                        providers, which may change from time-to-time, for these exclusive purposes, who
-                        will use the Session Data solely on our behalf and for our benefit. Please review how
-                        your consent to the collection, use, and limited sharing of Session Data in our
-                        <a href="terms.php">Terms of Use</a>.
-                    </p>
-                    <p>Please review our Cookie Policy below for more information about our use of these technologies.</p>
-                    <h3 id="section2">2. Use of Personal Information</h3>
-                    <h4><strong>a. Our products and services</strong></h4>
-                    <p>We use the personal information we collect to provide, maintain and improve our Sites and the services that Ecomfylead
-                        offers through them (our “Services”). This includes:</p>
-                    <ul>
-                        <li>To provide you with requested Services, which may include evaluations for home improvement products and
-                            services, including energy-related solutions.
-                        </li>
-                        <li>To provide you with customer service and support, and to facilitate other communications that you request or
-                            that are required to render Services to you.
-                        </li>
-                        <li>To provide you with information about new Services and other opportunities that we believe may be of interest to
-                            you, whether offered by us, Third-Parties, or Promotions Providers, and to personalize, measure, and improve
-                            such offers.
-                        </li>
-                        <li>To perform analytics for new and existing Services, such as our user accounts and related features</li>
-                        <li>To maintain and improve the quality of our Sites and Services</li>
-                        <li>To grow our business, including to perform research and development, understand our user trends, and understand
-                            the effectiveness of our marketing
-                        </li>
-                        <li>To protect ourselves, you, and others; prevent fraud; and create and maintain a trusted, secure, and reliable
-                            online environment
-                        </li>
-                        <li>To comply with our legal obligations; respond to subpoenas, court orders, or legal process; or to establish or
-                            exercise our legal rights or defense against legal claims
-                        </li>
-                    </ul>
-                    <h4><strong>b. Digital marketing communications from us</strong></h4>
-                    <p>We may send you promotional email communications about Ecomfylead, invite you to participate in events or promotions,
-                        or otherwise communicate with you for marketing purposes, as allowed by applicable law. For example, when we collect
-                        your contact information through your interaction with our Sites, we may use that information to follow up with you
-                        regarding an event or send you information that you have requested about Ecomfylead. You may opt out of receiving
-                        any, or all, of these communications from us via the unsubscribe link provided in such emails or by following
-                        further instructions provided in <a href="#section4">Your Rights and Choices</a>.</p>
-                    <h3 id="section3">3. Sharing of Personal Information</h3>
-                    <p>We may share your personal information with the following categories of third parties:</p>
+                    <p>At poweredbysolarenergy.org, accessible from https://poweredbysolarenergy.org, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by poweredbysolarenergy.org and how we use it.</p>
 
-                    <ol class="letters">
-                        <li><strong>Our affiliates.</strong> We may share personal information with our affiliates to provide our Sites and
-                            Services and for internal administrative purposes.
-                        </li>
-                        <li><strong>Product/Service providers.</strong> We share personal information with our product/service providers,
-                            such as analytics, advertising, marketing, customer and technical support, and other services. These third
-                            parties have access to your personal information only to perform these tasks and are obligated not to disclose
-                            or use the information for any other purpose.
-                        </li>
-                        <li><strong>Third-Parties.</strong> We share personal information, either directly or through intermediary agents
-                            and/or entities (including, lead aggregators and vendors to such businesses), with one or more third-party
-                            entities, such as solar and/or home improvement product/service providers, marketers of such products/services,
-                            and/or affiliate companies (collectively, including intermediaries, “Third-Parties”). For example, we may share
-                            personal information with Third-Parties for their direct marketing purposes. We may also share personal
-                            information with Third-Parties at a point in time after it is initially collected.
-                        </li>
-                        <li><strong>Promotions Providers.</strong> In addition to Third-Parties, our Sites may also present offers for
-                            promotions for other products and services that may be of interest to you (“Promotions Providers”). We only
-                            share limited web tracking data with Promotions Providers if you choose to click on the hyperlinks we provide
-                            for their offers, which will take you to the Promotions Provider’s website.
-                        </li>
-                        <li><strong>Third-party platform advertising.</strong> We may share your information with third-party platform
-                            providers who assist us in serving advertising regarding the Sites and Services to others who may be interested.
-                            We also partner with third parties (such as Facebook and Google) who use Cookies to serve interest-based
-                            advertising and content on their respective third-party platforms that may be based on your preferences,
-                            location and/or interests.
-                        </li>
-                        <li><strong>Affiliate and business transfer.</strong> If Ecomfylead is involved in a merger, acquisition or asset
-                            sale, your personal information may be transferred. We will provide notice before your personal information is
-                            transferred and becomes subject to a different privacy policy.
-                        </li>
-                        <li><strong>Compliance and harm prevention.</strong> We may share personal information as we believe necessary (i)
-                            to comply with applicable law, rules and regulations; (ii) to enforce our contractual rights; (iii) to
-                            investigate possible wrongdoing in connection with the Site and Services; (iv) to protect and defend the rights,
-                            privacy, safety and property of Ecomfylead, you or others; and (v) to respond to requests from courts, law
-                            enforcement agencies, regulatory agencies, and other public and government authorities.
-                        </li>
-                    </ol>
-                    <p>The selection of a Third-Party to acquire your personal information may be determined by a comparison with available
-                        products/services, including solar and/or home improvement-related products/services. The position of each potential
-                        purchaser may also be determined primarily by the price the purchaser is willing to pay for the information (e.g.,
-                        the higher the price, the better the purchaser's position).</p>
-                    <p>We may create aggregated, anonymous or de-identified data from personal information by removing data components that
-                        make the data personally identifiable to you or through obfuscation or other means. Our use of aggregated,
-                        anonymized and de-identified data is not subject to this Privacy Policy.</p>
-                    <h3 id="section4">4. Your Rights and Choices</h3>
-                    <p>You may have rights and choices regarding our use and disclosure of your personal information. Unless instructed
-                        otherwise, you can exercise these rights and choices using the information in the <a href="#section11">Contact Us</a> section at the end of
-                        this Policy.</p>
-                    <ol>
-                        <li>Opting out of receiving electronic communications from us. If you no longer wish to receive promotional email
-                            communications from us, you may opt out via the unsubscribe link included in such emails or by emailing us at
-                            <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5930373f36722a3635382b743436373c20742a382f3c2b773a3634192a34382b2d2a3635382b2a382f30373e2a773a3634">[email&#160;protected]</a></strong>. We will comply with your request as soon as reasonably practicable. Please note that if you opt out of
-                            receiving promotional emails from us, we may still send you important administrative messages that are required
-                            in order to provide you with our Services or for other reasons disclosed in this Policy.
-                        </li>
-                        <li>Your California privacy rights. <a href="ccpa.php">If you are a California resident, you may visit our Notice for California</a>
-                            Residents to learn more about the personal information we collect, use and disclose, as well as your privacy
-                            rights related to your personal information under the California Consumer Privacy Act (CCPA) and other state
-                            laws.
-                        </li>
-                        <li>Your Nevada privacy rights. Nevada residents have the right to request to opt out of any “sale” of their
-                            personal information under Nevada SB 220. You may request to opt out of the future sale of your personal
-                            information. If you are a Nevada resident and would like to make such a request, please email us at <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c7aea9a1a8ecb4a8aba6b5eaaaa8a9a2beeab4a6b1a2b5e9a4a8aa87b4aaa6b5b3b4a8aba6b5b4a6b1aea9a0b4e9a4a8aa">[email&#160;protected]</a></strong> and
-                            provide “Nevada Privacy Rights” in the subject line. You must include your full name, email address and postal
-                            address in your request so that we can verify your Nevada residence and respond. In the event we sell your
-                            personal information after the receipt of your request, we will make reasonable efforts to comply with such
-                            request.
-                        </li>
-                    </ol>
-                    <h3 id="section5">5. Data Security</h3>
-                    <p>The security of your personal information is important to us, but remember that no method of transmission over the
-                        Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to
-                        protect your personal information, we cannot guarantee its absolute security. We maintain appropriate technical,
-                        administrative and physical safeguards to help protect the security of your personal information against
-                        unauthorized access, destruction, loss, alteration, disclosure or misuse.</p>
-                    <h3 id="section6">6. International Data Transfers</h3>
-                    <p>Our Sites are operated exclusively in the United States and intended for users located in the United States. We may
-                        transfer, store and use information we collect and maintain about you, including personal information outside of
-                        your state, province, country or other governmental jurisdiction. The data protection laws in the jurisdiction in
-                        which we process personal information may differ from those of your jurisdiction, and in certain circumstances, your
-                        personal information may be subject to access requests from governments, courts, law enforcement agencies or
-                        regulatory agencies in those other jurisdictions. By using the Sites or providing us with any information, you
-                        consent to the transfer and processing of your information, including personal information, in the United States as
-                        set forth in this Privacy Policy.</p>
-                    <h3 id="section7">7. Cookie Policy</h3>
-                    <p>When you visit our Sites, we may collect information from you automatically through Cookies. We also rely on
-                        partners to provide many features of our Sites using data about your use of the Sites. We use Cookies for
-                        the following purposes:</p>
+                    <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
+
+                    <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in poweredbysolarenergy.org. This policy is not applicable to any information collected offline or via channels other than this website.</p>
+
+                    <h2>Consent</h2>
+
+                    <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+
+                    <h2>Information we collect</h2>
+
+                    <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
+                    <p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
+                    <p>When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</p>
+
+                    <h2>How we use your information</h2>
+
+                    <p>We use the information we collect in various ways, including to:</p>
+
                     <ul>
-                        <li><strong>Necessity.</strong> To enable features that are necessary for providing you the services on our Sites, such as keeping
-                            you signed in, improving security, and preventing and detecting fraud.</li>
-                        <li><strong>Preference.</strong> To allow us to remember your preferences and identify you when you return to our Sites.
-                        <li><strong>Analytics.</strong> To allow us to understand how our Sites are being used, track site performance and content views, and
-                            make improvements to the content, products or services.</li>
-                        <li><strong>Advertising.</strong> To deliver targeted advertising based on your preferences, location, and/or interests across
-                            different services and devices and measuring effectiveness of ads.</li>
-                        <li><strong>Social Media.</strong> To enable the sharing of content from our Sites through social networking and other sites.</li>
+                    <li>Provide, operate, and maintain our website</li>
+                    <li>Improve, personalize, and expand our website</li>
+                    <li>Understand and analyze how you use our website</li>
+                    <li>Develop new products, services, features, and functionality</li>
+                    <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li>
+                    <li>Send you emails</li>
+                    <li>Find and prevent fraud</li>
                     </ul>
-                    <p>You can modify your browser settings to decline or accept Cookies. However, in a few cases, some of our Sites’
-                        features may not function as designed.</p>
-                    <p>If you wish to opt out of our sharing of the data that is gathered when you visit our Site for purposes of
-                        targeted digital advertising, we encourage you to visit the <a href="https://optout.networkadvertising.org/?c=1" target="_blank">Network Advertising Initiative</a> or
-                        <a href="https://optout.aboutads.info/?c=2&lang=EN" target="_blank">the Digital Advertising Alliance’s Self-Regulatory Program for Online Behavioral Advertising</a> for more information about
-                        opting out of seeing targeted digital advertisements. Similarly, you can learn about your options to opt out of
-                        mobile app tracking by certain advertising networks through your device settings. You may also visit these
-                        websites for more information on how you can opt back in to the sharing of data. Please note that Ecomfylead does
-                        not maintain this web tracking data in an identifiable manner.
-                    </p>
-                    <p>Opting out of advertising networks does not necessarily mean that you will not receive advertisements while
-                        using our Sites or on other websites.</p>
-                    <p>We do not support Do Not Track functionality. Do Not Track is a preference you can set in your web browser to
-                        inform websites that you do not want to be tracked. You can enable or disable Do Not Track by visiting the
-                        Preferences or Settings page of your web browser.</p>
-                    <h3 id="section8">8. Children’s Privacy</h3>
-                    <p>The Sites are intended for a general audience and we do not knowingly collect personal information from children
-                        under age 18 through the Sites.</p>
-                    <p>If you are a parent or guardian and you are aware that a child under age 13 has provided us with personal
-                        information without parental consent, please contact us using the information in the <a href="#section11">Contact Us</a> section. If we
-                        become aware that we have collected personal information from children under age 13 without verification of
-                        parental consent, we will take steps to remove that information from our servers.</p>
-                    <h3 id="section9">9. Links to Other Websites</h3>
-                    <p>Our Sites may contain links to other websites that are not operated by Ecomfylead. We strongly suggest you review
-                        their privacy policies. If any linked website is not owned or controlled by us, we are not responsible for its
-                        content or privacy policies, or the practices of the operator of the website or services.</p>
-                    <h3 id="section10">10. Changes to This Privacy Policy</h3>
-                    <p>We may change this Privacy Policy from time to time to reflect new services or changes in our data practices or
-                        relevant laws. The “effective date” legend at the top of this Privacy Policy indicates when this Privacy Policy
-                        was last revised. Any changes are effective when we post the revised Privacy Policy on the Sites. If we make any
-                        material changes to this Privacy Policy, we will take reasonable measures to notify you via email and/or a
-                        prominent notice on our Platform prior to the change becoming effective, and will update the effective date at
-                        the top of this Privacy Policy. You are advised to review this Privacy Policy periodically for any changes.</p>
-                    <h3 id="section11">11. Contact Us</h3>
-                    <p>If you have any questions about this Privacy Policy or wish to exercise one of your privacy rights, please
-                        contact us by emailing <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7a13141c15510915161b08571715141f0357091b0c1f08541915173a09171b080e0915161b08091b0c13141d0954191517">[email&#160;protected]</a></strong> or sending a letter to:</p>
-                    <p>
-                        Ecomfylead<br>
-                        1740 H. Dell Range Blvd., #281<br>
-                        Cheyenne, WY 82009
-                    </p>
+
+                    <h2>Log Files</h2>
+
+                    <p>poweredbysolarenergy.org follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
+
+                    <h2>Cookies and Web Beacons</h2>
+
+                    <p>Like any other website, poweredbysolarenergy.org uses "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+
+                    <h2>Advertising Partners Privacy Policies</h2>
+
+                    <P>You may consult this list to find the Privacy Policy for each of the advertising partners of poweredbysolarenergy.org.</p>
+
+                    <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on poweredbysolarenergy.org, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
+
+                    <p>Note that poweredbysolarenergy.org has no access to or control over these cookies that are used by third-party advertisers.</p>
+
+                    <h2>Third Party Privacy Policies</h2>
+
+                    <p>poweredbysolarenergy.org's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
+
+                    <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
+
+                    <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+
+                    <p>Under the CCPA, among other rights, California consumers have the right to:</p>
+                    <p>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</p>
+                    <p>Request that a business delete any personal data about the consumer that a business has collected.</p>
+                    <p>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</p>
+                    <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+
+                    <h2>GDPR Data Protection Rights</h2>
+
+                    <p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p>
+                    <p>The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.</p>
+                    <p>The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.</p>
+                    <p>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</p>
+                    <p>The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</p>
+                    <p>The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</p>
+                    <p>The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</p>
+                    <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+
+                    <h2>Children's Information</h2>
+
+                    <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
+
+                    <p>poweredbysolarenergy.org does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+
+                    <h2>Changes to This Privacy Policy</h2>
+
+                    <p>We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.</p>
+
+                    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</p>
 
                     <style>
                         strong {
