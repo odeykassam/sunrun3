@@ -53,7 +53,6 @@ input:-webkit-autofill, input:-webkit-autofill:active, input:-webkit-autofill:fo
 
 [class*=" icon-"], [class^=icon-] {
     font-family: icomoon !important;
-    speak: never;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -504,10 +503,6 @@ p.copyright a:hover {
 footer a {
     color: #000;
     font-weight: 300
-}
-
-.footer-menu ul {
-    /*text-align: right*/
 }
 
 div#utility_provider {
@@ -2063,9 +2058,6 @@ section.solar-power-content-wrap {
 
 .customer-edit .parameter div:nth-of-type(1) {
     flex-basis: 8rem;
-}
-
-.customer-edit .parameter div {
 }
 
 /*.customer-edit dl dd {*/
