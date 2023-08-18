@@ -975,7 +975,7 @@
                     </style>
                 </div>
                 <div id="ccpa-php" class="hidden">
-                    <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+                    <h2 id="ccpa-php-top">CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
 
                     <p>Under the CCPA, among other rights, California consumers have the right to:</p>
                     <p>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</p>
@@ -989,8 +989,9 @@
                     </style>
                 </div>
                 <div id="contact_us-php" class="hidden">
-                    <h2>Contact Us</h2>
-                    <p>If you have any questions regarding or you need any support regarding our policies, please, do not hesitate in contact us through the following email: luis@forthedeal.com or at our mailing address: 33 sw 2nd ave suite 802
+                    <h2 id="contact_us-php-top">Contact Us</h2>
+                    <p>If you have any questions regarding or you need any support regarding our policies, please, do not hesitate in contact us through the following email: luis@forthedeal.com <br>or at our mailing address: 33 sw 2nd ave suite 802 <br>
+                    We handle emails during our normal business hours. Please include your full name and zip code on your inquiry.
                     </p>
                     <style>
                         strong {
