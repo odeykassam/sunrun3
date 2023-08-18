@@ -740,6 +740,11 @@
                             <p id="tcpa_label"> 
                                 Copyright&copy; 2023&nbsp;gogreenandsave.net&nbsp;All Rights Reserved &nbsp;<a href="privacy.php" target="_new">Privacy policy</a> || <a href="terms.php" target="_new">Terms and Conditions</a> || <a href="ccpa.php" target="_new">CCPA</a> || <a href="contact_us.php" target="_new">Contact Us</a>
                             </p>
+                            <style>
+                                #footer {
+                                    margin-top: 0px;
+                                }
+                            </style>
                         </div>
                     </div>
                 </div>
@@ -977,11 +982,21 @@
                     <p>Request that a business delete any personal data about the consumer that a business has collected.</p>
                     <p>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</p>
                     <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+                    <style>
+                        strong {
+                            font-weight: bold;
+                        }
+                    </style>
                 </div>
                 <div id="contact_us-php" class="hidden">
                     <h2>Contact Us</h2>
                     <p>If you have any questions regarding or you need any support regarding our policies, please, do not hesitate in contact us through the following email: luis@forthedeal.com or at our mailing address: 33 sw 2nd ave suite 802
                     </p>
+                    <style>
+                        strong {
+                            font-weight: bold;
+                        }
+                    </style>
                 </div>
                 <div id="companylist-php" class="hidden">
                     <h2 id="companylist-php-top">Company List</h2>
