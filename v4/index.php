@@ -738,9 +738,7 @@
                     <div class="footer-menu">
                         <div id="footer" class="form-group">
                             <p id="tcpa_label"> 
-                                Copyright&copy; 2023&nbsp;poweredbysolar.energy.&nbsp;All Rights Reserved &nbsp;<a href="privacy.php" target="_new">Privacy policy</a> || <a href="terms.php" target="_new">Terms and Conditions</a>
-                                <br>
-                                If you have any questions or suggestions about our Policies, do not hesitate to contact us at luis@forthedeal.com
+                                Copyright&copy; 2023&nbsp;gogreenandsave.net&nbsp;All Rights Reserved &nbsp;<a href="privacy.php" target="_new">Privacy policy</a> || <a href="terms.php" target="_new">Terms and Conditions</a> || <a href="ccpa.php" target="_new">CCPA</a> || <a href="contact_us.php" target="_new">Contact Us</a>
                             </p>
                         </div>
                     </div>
@@ -942,14 +940,6 @@
 
                     <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
 
-                    <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
-
-                    <p>Under the CCPA, among other rights, California consumers have the right to:</p>
-                    <p>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</p>
-                    <p>Request that a business delete any personal data about the consumer that a business has collected.</p>
-                    <p>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</p>
-                    <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
-
                     <h2>GDPR Data Protection Rights</h2>
 
                     <p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p>
@@ -978,6 +968,20 @@
                             font-weight: bold;
                         }
                     </style>
+                </div>
+                <div id="ccpa-php" class="hidden">
+                    <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+
+                    <p>Under the CCPA, among other rights, California consumers have the right to:</p>
+                    <p>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</p>
+                    <p>Request that a business delete any personal data about the consumer that a business has collected.</p>
+                    <p>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</p>
+                    <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+                </div>
+                <div id="contact_us-php" class="hidden">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions regarding or you need any support regarding our policies, please, do not hesitate in contact us through the following email: luis@forthedeal.com or at our mailing address: 33 sw 2nd ave suite 802
+                    </p>
                 </div>
                 <div id="companylist-php" class="hidden">
                     <h2 id="companylist-php-top">Company List</h2>
