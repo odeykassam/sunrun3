@@ -773,7 +773,7 @@
 
                     <h3><strong>Cookies</strong></h3>
 
-                    <p>We employ the use of cookies. By accessing gogreenandsave.net, you agreed to use cookies in agreement with the EcomfyLead's <a href="privacy.php">Privacy Policy</a>. </p>
+                    <p>We employ the use of cookies. By accessing gogreenandsave.net, you agreed to use cookies in agreement with the EcomfyLead's <a href="privacy.php" target="_new">Privacy Policy</a>. </p>
 
                     <p>Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
 
