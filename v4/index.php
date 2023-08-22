@@ -697,8 +697,8 @@
                                     <span class="terms_txt">
                                         <label id="tcpa_label">
                                             <input type="hidden" id="leadid_tcpa_disclosure" />
-                                            We respect your privacy and want to make you aware of a few things. By submitting, you authorize EcomfyLead and up to
-                                            <a href="companylist.php" target="_blank">four solar companies</a>
+                                            We respect your privacy and want to make you aware of a few things. By pressing “Next”, you authorize EcomfyLead and up to
+                                            <a href="companylist.php" target="_blank">four solar companies</a>, subject to our <a href="privacy.php" target="_new"> Privacy Policiy<a> and our <a href="terms.php" target="_new">Terms and Conditions</a>
                                             to call you or SMS message the phone number provided, even if it is currently listed on any state, federal, or corporate 'Do Not Call' lists, and you understand that they may use automated dialing or prerecorded message to call you, and that your consent is not required to purchase products or services.
                                         </label>
                                     </span>
@@ -763,7 +763,7 @@
                     <p>Effective June 1st, 2023</p>
                     <p>Last Updated June 6th, 2023</p>
 
-                    <p>Welcome to poweredbysolarenergy.org!</p>
+                    <p>Welcome to gogreenandsave.net!</p>
 
                     <p>These terms and conditions outline the rules and regulations for the use of EcomfyLead's Website, located at https://gogreenandsave.net/.</p>
 
@@ -773,20 +773,20 @@
 
                     <h3><strong>Cookies</strong></h3>
 
-                    <p>We employ the use of cookies. By accessing poweredbysolarenergy.org, you agreed to use cookies in agreement with the EcomfyLead's Privacy Policy. </p>
+                    <p>We employ the use of cookies. By accessing gogreenandsave.net, you agreed to use cookies in agreement with the EcomfyLead's <a href="privacy.php" target="_new">Privacy Policy</a>. </p>
 
                     <p>Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
 
                     <h3><strong>License</strong></h3>
 
-                    <p>Unless otherwise stated, EcomfyLead and/or its licensors own the intellectual property rights for all material on poweredbysolarenergy.org. All intellectual property rights are reserved. You may access this from poweredbysolarenergy.org for your own personal use subjected to restrictions set in these terms and conditions.</p>
+                    <p>Unless otherwise stated, EcomfyLead and/or its licensors own the intellectual property rights for all material on gogreenandsave.net. All intellectual property rights are reserved. You may access this from gogreenandsave.net for your own personal use subjected to restrictions set in these terms and conditions.</p>
 
                     <p>You must not:</p>
                     <ul>
-                        <li>Republish material from poweredbysolarenergy.org</li>
-                        <li>Sell, rent or sub-license material from poweredbysolarenergy.org</li>
-                        <li>Reproduce, duplicate or copy material from poweredbysolarenergy.org</li>
-                        <li>Redistribute content from poweredbysolarenergy.org</li>
+                        <li>Republish material from gogreenandsave.net</li>
+                        <li>Sell, rent or sub-license material from gogreenandsave.net</li>
+                        <li>Reproduce, duplicate or copy material from gogreenandsave.net</li>
+                        <li>Redistribute content from gogreenandsave.net</li>
                     </ul>
 
                     <p>This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the <a href="https://www.termsandconditionsgenerator.com/">Free Terms and Conditions Generator</a>.</p>
@@ -893,7 +893,7 @@
                     <p>Last Updated June 6th, 2023</p>
                     <h1>Privacy Policy for EcomfyLead</h1>
 
-                    <p>At gogreenandsave.net, accessible from https://gogreenandsave.net/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by poweredbysolarenergy.org and how we use it.</p>
+                    <p>At gogreenandsave.net, accessible from https://gogreenandsave.net/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by gogreenandsave.net and how we use it.</p>
 
                     <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
 
@@ -923,25 +923,29 @@
                     <li>Find and prevent fraud</li>
                     </ul>
 
+                    <h2>Opt-Out</h2>
+
+                   <p>If, after you have shared your information with us, you decide that you do not want to receive marketing communications from Provider, you can discontinue the communications by sending an opt-out request to the <a href="contact_us.php" target="_new">Contact Us</a> information listed below</p> 
+
                     <h2>Log Files</h2>
 
-                    <p>poweredbysolarenergy.org follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
+                    <p>gogreenandsave.net follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
 
                     <h2>Cookies and Web Beacons</h2>
 
-                    <p>Like any other website, poweredbysolarenergy.org uses "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+                    <p>Like any other website, gogreenandsave.net uses "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
 
                     <h2>Advertising Partners Privacy Policies</h2>
 
-                    <P>You may consult this list to find the Privacy Policy for each of the advertising partners of poweredbysolarenergy.org.</p>
+                    <P>You may consult this list to find the Privacy Policy for each of the advertising partners of gogreenandsave.net.</p>
 
-                    <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on poweredbysolarenergy.org, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
+                    <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on gogreenandsave.net, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
 
-                    <p>Note that poweredbysolarenergy.org has no access to or control over these cookies that are used by third-party advertisers.</p>
+                    <p>Note that gogreenandsave.net has no access to or control over these cookies that are used by third-party advertisers.</p>
 
                     <h2>Third Party Privacy Policies</h2>
 
-                    <p>poweredbysolarenergy.org's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
+                    <p>gogreenandsave.net's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
 
                     <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
 
@@ -960,7 +964,7 @@
 
                     <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
 
-                    <p>poweredbysolarenergy.org does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+                    <p>gogreenandsave.net does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
 
                     <h2>Changes to This Privacy Policy</h2>
 
