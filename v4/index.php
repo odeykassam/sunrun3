@@ -773,7 +773,7 @@
 
                     <h3><strong>Cookies</strong></h3>
 
-                    <p>We employ the use of cookies. By accessing gogreenandsave.net, you agreed to use cookies in agreement with the EcomfyLead's <a href="privacy.php" target="_new">Privacy Policy</a>. </p>
+                    <p>We employ the use of cookies. By accessing gogreenandsave.net, you agreed to use cookies in agreement with the EcomfyLead's <a href="javascript:void(0);" onclick="openPopup('privacy.php')">Privacy Policy</a>. </p>
 
                     <p>Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
 
@@ -925,7 +925,7 @@
 
                     <h2>Opt-Out</h2>
 
-                   <p>If, after you have shared your information with us, you decide that you do not want to receive marketing communications from Provider, you can discontinue the communications by sending an opt-out request to the <a href="contact_us.php" target="_new">Contact Us</a> information listed below</p> 
+                   <p>If, after you have shared your information with us, you decide that you do not want to receive marketing communications from Provider, you can discontinue the communications by sending an opt-out request to the <a href="javascript:void(0);" onclick="openPopup('contact_us.php')">Contact Us</a> information listed below</p> 
 
                     <h2>Log Files</h2>
 
@@ -17504,6 +17504,11 @@
         document.querySelector("#q2-next").addEventListener("click", aaa)
     </script>
 
+    <script>
+        function openPopup(url) {
+            window.open(url, '_blank', 'width=600,height=400');
+        }
+    </script>
 
 
 </body>
