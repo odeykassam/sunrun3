@@ -20,7 +20,6 @@
 </head>
 
 <body>
-    <article>
         <style>
             [data-custom-class='body'],
             [data-custom-class='body'] * {
@@ -71,8 +70,12 @@
             }
         </style>
 
-        <div data-custom-class="body">
-        <div id="privacy-php" class="hidden">
+<div id="tcpa-modal">
+        <div class="modal-content">
+            <span class="tcpa-close">&times;</span>
+            <div class="tcpa-content-container">
+                
+                <div id="privacy-php" class="hidden">
                     <h2 id="privacy-php-top">Privacy Policy</h2>
                     <p>Effective June 1st, 2023</p>
                     <p>Last Updated June 6th, 2023</p>
@@ -163,23 +166,8 @@
                         }
                     </style>
                 </div>
-                                                                                                                                <style>
-                                                                                                                                    ul {
-                                                                                                                                        list-style-type: square;
-                                                                                                                                    }
-
-                                                                                                                                    ul>li>ul {
-                                                                                                                                        list-style-type: circle;
-                                                                                                                                    }
-
-                                                                                                                                    ul>li>ul>li>ul {
-                                                                                                                                        list-style-type: square;
-                                                                                                                                    }
-
-                                                                                                                                    ol li {
-                                                                                                                                        font-family: Arial;
-                                                                                                                                    }
-                                                                                                                                </style>
-    </article>
+            </div>
+        </div>
+    </div>
 
 </body>
