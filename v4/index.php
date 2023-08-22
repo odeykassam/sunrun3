@@ -925,7 +925,7 @@
 
                     <h2>Opt-Out</h2>
 
-                   <p>If, after you have shared your information with us, you decide that you do not want to receive marketing communications from Provider, you can discontinue the communications by sending an opt-out request to the <a href="javascript:void(0);" onclick="openPopup('contact_us.php')">Contact Us</a> information listed below</p> 
+                   <p>If, after you have shared your information with us, you decide that you do not want to receive marketing communications from Provider, you can discontinue the communications by sending an opt-out request to the Contact Us information listed below</p> 
 
                     <h2>Log Files</h2>
 
