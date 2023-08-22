@@ -75,7 +75,7 @@
             <span class="tcpa-close">&times;</span>
             <div class="tcpa-content-container">
                 
-                <div id="privacy-php" class="hidden">
+                <div id="privacy-php">
                     <h2 id="privacy-php-top">Privacy Policy</h2>
                     <p>Effective June 1st, 2023</p>
                     <p>Last Updated June 6th, 2023</p>
