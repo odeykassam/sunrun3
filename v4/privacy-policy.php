@@ -70,7 +70,7 @@
             }
         </style>
 
-<div id="tcpa-modal">
+<div id="tcpa-modal2">
         <div class="modal-content">
             <span class="tcpa-close">&times;</span>
             <div class="tcpa-content-container">
