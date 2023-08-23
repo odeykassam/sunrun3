@@ -765,7 +765,7 @@
 
                     <p>Welcome to gogreenandsave.net!</p>
 
-                    <p>These terms and conditions outline the rules and regulations for the use of EcomfyLead's Website, located at https://gogreenandsave.net/.</p>
+                    <p>These terms and conditions outline the rules and regulations for the use of For the deal's Website, located at https://gogreenandsave.net/.</p>
 
                     <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use gogreenandsave.net if you do not agree to take all of the terms and conditions stated on this page.</p>
 
