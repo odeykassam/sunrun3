@@ -697,7 +697,7 @@
                                     <span class="terms_txt">
                                         <label id="tcpa_label">
                                             <input type="hidden" id="leadid_tcpa_disclosure" />
-                                            We respect your privacy and want to make you aware of a few things. By pressing “Next”, you authorize EcomfyLead and up to
+                                            We respect your privacy and want to make you aware of a few things. By pressing “Next”, you authorize For the Deal and up to
                                             <a href="companylist.php" target="_blank">four solar companies</a>, subject to our <a href="privacy.php" target="_new"> Privacy Policiy<a> and our <a href="terms.php" target="_new">Terms and Conditions</a>
                                             to call you or SMS message the phone number provided, even if it is currently listed on any state, federal, or corporate 'Do Not Call' lists, and you understand that they may use automated dialing or prerecorded message to call you, and that your consent is not required to purchase products or services.
                                         </label>
@@ -773,13 +773,13 @@
 
                     <h3><strong>Cookies</strong></h3>
 
-                    <p>We employ the use of cookies. By accessing gogreenandsave.net, you agreed to use cookies in agreement with the EcomfyLead's <a href="privacy-policy.php" target="_new">Privacy Policy</a>. </p>
+                    <p>We employ the use of cookies. By accessing gogreenandsave.net, you agreed to use cookies in agreement with the For the Deal's <a href="privacy-policy.php" target="_new">Privacy Policy</a>. </p>
 
                     <p>Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
 
                     <h3><strong>License</strong></h3>
 
-                    <p>Unless otherwise stated, EcomfyLead and/or its licensors own the intellectual property rights for all material on gogreenandsave.net. All intellectual property rights are reserved. You may access this from gogreenandsave.net for your own personal use subjected to restrictions set in these terms and conditions.</p>
+                    <p>Unless otherwise stated, For the Deal and/or its licensors own the intellectual property rights for all material on gogreenandsave.net. All intellectual property rights are reserved. You may access this from gogreenandsave.net for your own personal use subjected to restrictions set in these terms and conditions.</p>
 
                     <p>You must not:</p>
                     <ul>
@@ -791,9 +791,9 @@
 
                     <p>This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the <a href="https://www.termsandconditionsgenerator.com/">Free Terms and Conditions Generator</a>.</p>
 
-                    <p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. EcomfyLead does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of EcomfyLead,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, EcomfyLead shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
+                    <p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. For the Deal does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of For the Deal,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, For the Deal shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
 
-                    <p>EcomfyLead reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
+                    <p>For the Deal reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
 
                     <p>You warrant and represent that:</p>
 
@@ -804,7 +804,7 @@
                         <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
                     </ul>
 
-                    <p>You hereby grant EcomfyLead a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
+                    <p>You hereby grant For the Deal a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
 
                     <h3><strong>Hyperlinking to our Content</strong></h3>
 
@@ -832,11 +832,11 @@
                         <li>educational institutions and trade associations.</li>
                     </ul>
 
-                    <p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of EcomfyLead; and (d) the link is in the context of general resource information.</p>
+                    <p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of For the Deal; and (d) the link is in the context of general resource information.</p>
 
                     <p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party's site.</p>
 
-                    <p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to EcomfyLead. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
+                    <p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to For the Deal. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
 
                     <p>Approved organizations may hyperlink to our Website as follows:</p>
 
@@ -846,7 +846,7 @@
                         <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party's site.</li>
                     </ul>
 
-                    <p>No use of EcomfyLead's logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
+                    <p>No use of For the Deal's logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
 
                     <h3><strong>iFrames</strong></h3>
 
@@ -891,7 +891,7 @@
                     <h2 id="privacy-php-top">Privacy Policy</h2>
                     <p>Effective June 1st, 2023</p>
                     <p>Last Updated June 6th, 2023</p>
-                    <h1>Privacy Policy for EcomfyLead</h1>
+                    <h1>Privacy Policy for For the Deal</h1>
 
                     <p>At gogreenandsave.net, accessible from https://gogreenandsave.net/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by gogreenandsave.net and how we use it.</p>
 
