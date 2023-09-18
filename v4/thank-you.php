@@ -410,3 +410,168 @@
 </body>
 
 </html>
+
+<?php
+
+    $sourceId = $_POST['sub1'];
+    ini_set('max_execution_time', 100);
+
+    // API endpoint URL
+    $urlPing = 'https://leads-inst338-client.phonexa.com/ping/';
+
+    $trustedForm = $_POST['xxTrustedFormCertUrl'];
+    $provider = $_POST['utility_provider'];
+    $ownHome = $_POST['property_ownership'];
+    $address = $_POST['full_address'];
+    $zip = $_POST['zip_code'];
+    $monthlyBill = $_POST['electric_bill'];
+    $roofShade = $_POST['roof_shade'];
+    $ip_address = $_SERVER['REMOTE_ADDR'];
+    $clickId = $_POST['click_id'];
+
+    if($ownHome === 'Own'){
+        $ownHome = 'YES';
+    } else{
+        $ownHome = 'NO';
+    }
+
+    if($roofShade === 'No Shade'){
+        $roofShade = 'NO_SHADE';
+    }elseif ($roofShade === 'A Little Shade') {
+        $roofShade = 'SOME_SHADE';
+    }elseif ($roofShade === 'A Lot of Shade') {
+        $roofShade = 'FULL_SHADE';
+    }elseif ($roofShade === 'Uncertain') {
+        $roofShade = 'NOT_SURE';
+    };
+
+    // Data to send to the API
+    $data = array(
+        'apiId' => 'E154A88B87B442FAA2C4AF4B19827E0F',
+        'apiPassword' => 'f60ef34b',
+        'productId' => '177',
+        'trustedForm' => $trustedForm,
+        'jornayaLeadId' => '',
+        'tcpa' => 'YES',
+        'tcpaLanguage' => "I agree to Terms, Privacy, and consent to solar/home servicers to send marketing prerecorded messages and autodialed calls/texts to my phone number above even if it's on any do not call list. Consent is not a condition of purchase. You can opt-out at any time (see Terms). Message/data rates may apply.",
+        'webSiteUrl' => 'https://gogreenandsave.net/',
+        'urlConsent' => 'https://gogreenandsave.net/',
+        'address' => $address,
+        'zip' => $zip,
+        'city' => '',
+        'state' => '',
+        'ownHome' => $ownHome,
+        'bestCallTime' => 'Any Time',
+        'utilityProvider' => $provider,
+        'monthlyBill' => $monthlyBill,
+        'propertyType' => 'OTHER',
+        'roofType' => 'UNSURE_OTHER',
+        'roofShade' => $roofShade,
+        'creditRating' => 'FAIR',
+        'purchaseTimeFrame' => 'OTHER',
+        'userIp' => $ip_address,
+        'clickId' => $clickId,
+        'source' => $sourceId,
+        'projectType' => 'NEW',
+        'solarSystemType' => 'ELECTRICITY',
+    );
+
+    $dataJson = json_encode($data);
+
+    // Initialize cURL
+    $curl = curl_init();
+
+    // Set cURL options
+    curl_setopt($curl, CURLOPT_URL, $urlPing);
+    curl_setopt($curl, CURLOPT_POST, true);
+    curl_setopt($curl, CURLOPT_POSTFIELDS, $dataJson);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curl, CURLOPT_HTTPHEADER, array(
+		"Content-Type: application/json"
+	));
+
+    curl_setopt_array($curl, [
+		CURLOPT_ENCODING       => "",
+		CURLOPT_MAXREDIRS      => 10,
+		CURLOPT_TIMEOUT        => 80,
+		CURLOPT_HTTP_VERSION   => CURL_HTTP_VERSION_1_1
+	]);
+
+    // Send the request
+    $response = curl_exec($curl);
+    // Close cURL
+    curl_close($curl);
+
+    $urlPost = 'https://leads-inst338-client.phonexa.com/post/';
+
+    $jsonPromise = json_decode($response);
+    $promise = $jsonPromise->promise;
+    $firstName = $_POST['first_name'];
+    $lastName = $_POST['last_name'];
+    $email = $_POST['email_address'];
+    $phone = $_POST['phone_home'];
+    
+    // Data to send to the API
+    $dataPost = array(
+        'promise' => $promise,
+        'apiId' => 'E154A88B87B442FAA2C4AF4B19827E0F',
+        'apiPassword' => 'f60ef34b',
+        'productId' => '177',
+        'trustedForm' => $trustedForm,
+        'jornayaLeadId' => '',
+        'tcpa' => $ownHome,
+        'tcpaLanguage' => "I agree to Terms, Privacy, and consent to solar/home servicers to send marketing prerecorded messages and autodialed calls/texts to my phone number above even if it's on any do not call list. Consent is not a condition of purchase. You can opt-out at any time (see Terms). Message/data rates may apply.",
+        'webSiteUrl' => 'https://gogreenandsave.net/',
+        'urlConsent' => 'https://gogreenandsave.net/',
+        'firstName' => $firstName,
+        'lastName' => $lastName,
+        'email' => $email,
+        'homePhone' => '',
+        'mobilePhone' => $phone,
+        'address' => $address,
+        'zip' => $zip,
+        'city' => '',
+        'state' => '',
+        'ownHome' => $ownHome,
+        'bestCallTime' => 'Any Time',
+        'utilityProvider' => $provider,
+        'monthlyBill' => $monthlyBill,
+        'propertyType' => 'OTHER',
+        'roofType' => 'UNSURE_OTHER',
+        'roofShade' => $roofShade,
+        'creditRating' => 'FAIR',
+        'purchaseTimeFrame' => 'OTHER',
+        'userIp' => $ip_address,
+        'clickId' => $clickId,
+        'source' => $sourceId,
+        'projectType' => 'NEW',
+        'solarSystemType' => 'ELECTRICITY',
+    );
+
+    $dataJsonPost = json_encode($dataPost);
+
+    // Initialize cURL
+    $curlPost = curl_init();
+
+    // Set cURL options
+    curl_setopt($curlPost, CURLOPT_URL, $urlPost);
+    curl_setopt($curlPost, CURLOPT_POST, true);
+    curl_setopt($curlPost, CURLOPT_POSTFIELDS, $dataJsonPost);
+    curl_setopt($curlPost, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curlPost, CURLOPT_HTTPHEADER, array(
+        "Content-Type: application/json"
+    ));
+
+    curl_setopt_array($curlPost, [
+        CURLOPT_ENCODING       => "",
+        CURLOPT_MAXREDIRS      => 10,
+        CURLOPT_TIMEOUT        => 60,
+        CURLOPT_HTTP_VERSION   => CURL_HTTP_VERSION_1_1
+    ]);
+
+    // Send the request
+    $responsePost = curl_exec($curlPost);
+    // Close cURL
+    curl_close($curlPost);
+
+?>

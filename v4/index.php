@@ -392,6 +392,19 @@
             console.log(err)
         })
     </script>
+
+    <script>
+        // Retrieve the sub1-sub2 parameter from the URL using JavaScript
+        var urlParams = new URLSearchParams(window.location.search);
+        var sub1Value = urlParams.get('sub1');
+        var clickIdValue = urlParams.get('sub2');
+
+        // Set the sub1-sub2 parameter as the value of the hidden input field
+        window.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('sub1Input').value = sub1Value;
+            document.getElementById('click_id').value = clickIdValue;
+        });
+    </script>
 </head>
 
 <body class="v2-page en">
@@ -484,6 +497,7 @@
                                 <input type="hidden" id="state" name="state" value="">
                                 <input type="hidden" id="street_number" name="street_number" value="">
 
+                                <input type="hidden" name="sub1" id="sub1Input">
                                 <input type="hidden" id="route" name="street" value="">
                                 <input type="hidden" id="locality" name="city" value="">
                                 <input type="hidden" id="administrative_area_level_1" name="state" value="">
