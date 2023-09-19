@@ -502,10 +502,55 @@
     // Close cURL
     curl_close($curl);
 
-    $urlPost = 'https://leads-inst338-client.phonexa.com/post/';
-
     $jsonPromise = json_decode($response);
     $promise = $jsonPromise->promise;
+    $amount = $jsonPromise->price;
+
+    // Data to send to the API
+    $dataEver = array(
+        'nid' => 1006,
+        'affid' => $sourceId,
+        'oid' => 1408,
+        'amount' => $amount
+    );
+
+    $dataJsonEver = json_encode($dataEver);
+
+    // Your base URL
+    $urlEver = 'https://www.ecomfyl.com/';
+
+    // Build the query string
+    $queryString = http_build_query($params);
+
+    // Combine the base URL and the query string
+    $urlWithParams = $baseUrl . '?' . $queryString;
+
+    // Initialize cURL
+    $curlEver = curl_init();
+
+    // Set cURL options
+    curl_setopt($curlEver, CURLOPT_URL, $urlEver);
+    curl_setopt($curlEver, CURLOPT_POST, true);
+    curl_setopt($curlEver, CURLOPT_POSTFIELDS, $dataJsonEver);
+    curl_setopt($curlEver, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curlEver, CURLOPT_HTTPHEADER, array(
+		"Content-Type: application/json"
+	));
+
+    curl_setopt_array($curlEver, [
+		CURLOPT_ENCODING       => "",
+		CURLOPT_MAXREDIRS      => 10,
+		CURLOPT_TIMEOUT        => 80,
+		CURLOPT_HTTP_VERSION   => CURL_HTTP_VERSION_1_1
+	]);
+
+    // Send the request
+    $responseEver = curl_exec($curlEver);
+    // Close cURL
+    curl_close($curlEver);
+
+    $urlPost = 'https://leads-inst338-client.phonexa.com/post/';
+
     $firstName = $_POST['first_name'];
     $lastName = $_POST['last_name'];
     $email = $_POST['email_address'];
